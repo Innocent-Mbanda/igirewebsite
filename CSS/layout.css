@@ -1,7 +1,7 @@
 body{
     background-color: rgb(0, 8, 4);
 }
-
+/*headers*/
 header {
     display: grid;
     grid-template-columns: 1fr 6fr;
@@ -45,58 +45,13 @@ nav ul li:hover i {
     color: #35336b;
 }
 
-/* .Aboutus{
-    height: 9rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    place-items: center;
-    padding: 2rem 0rem;
-    grid-gap: 1.2rem;
-    transform: translateY(-220px);
-    transition: all 300ms ease-in-out;
-} */
 
-.slides-container{
-    width: 800px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-}
-.imagecontainer{
-    width: 3000px;
-    height: 600px;
-    position: relative;
-    transition: 2s;
-}
-.image-container{
-    float: left;
-    margin: 0px;
-    padding: 0px;
+.images1{
+    width: 1000px;
+    height: 200px;
+    margin-left: 60px;
 }
 
-buttone-container{
-    top:-20px;
-    position: relative;
-
-}
-.slider-button{
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    border-radius: 5px;
-    background-color: red;
-}
-
-#images-container:target ~ .slides-container{
-    left: 0px;
-}
-#image-container-2:target ~.slides-container{
-    left: -1600px;
-}
-#image-container-3:target ~.slides-container{
-    left: -1600px;
-}
 
 .missionclass{
  display: grid;
