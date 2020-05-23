@@ -1,4 +1,7 @@
-
+html{
+    padding: 0;
+    margin: 0;
+}
 *{
     margin: 0;
     padding: 0;
@@ -9,19 +12,21 @@ body{
     background-color:rgba(245, 245, 245, 0.993);
 }
 /*headers*/
-header {
+.header1 {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    display: grid;
+    grid-template-columns: 40% 60%;
     padding: 1rem;
-    background-color:white
+    background-color:#051923
+    
 }
 .dropdown-toggle {
     color: teal;
 }
-.Logo-image{
-    height: 100PX;
-    width: auto;
-    float:right;
+.logo-container{
+    height: 50PX;
+    width: 50px;
+    
 
 }
 .CONTACT{
@@ -32,22 +37,25 @@ header {
     color: teal;
     font-size: 1.5rem;
 }
-nav ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+.navigations {
+    display: flex;
+    font-size: 1rem;
+ 
 }
 nav ul li {
     list-style-type: none;
     text-align: center;
     transition: all 500ms ease-in-out;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1rem;
     list-style: none;
     margin-left: 40px;
+   
 }
 nav ul li a {
     text-decoration: none;
     font-size: 90%;
+
 }
 
 
@@ -69,6 +77,53 @@ nav ul li:hover i {
     width: 50%;
     height: 50%;
     margin-left: 800px;
+}
+.header-container{
+    border: none;
+    display: grid;
+    grid-template-columns:40% 60%;
+    
+   
+}
+/* AWE STARTS HERE */
+.logo1{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    background-color: #ffffff;
+}
+.academy2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    background-color:#1982c4;
+    
+}
+
+.academy{
+    font-size: 2rem;
+     color: #ffffff; 
+     font-size: 50px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.log{
+    height: 190px;
+    width: 300px; 
+    display: block;
+    z-index: 11;
+    border-radius: 30%;
+    margin-left: 30px;
+}
+
+.academy{
+
 }
 .carousel-control-prev,
 .carousel-control-next{
@@ -237,4 +292,17 @@ nav ul li:hover i {
     color: black 
       
  
+}
+
+/* about section of awe */
+.about_container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.about-awe{
+    font-size: 2rem;
+      color: red;
+     font-size:50px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
