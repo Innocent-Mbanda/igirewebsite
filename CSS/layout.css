@@ -1,4 +1,7 @@
-
+html{
+    padding: 0;
+    margin: 0;
+}
 *{
     margin: 0;
     padding: 0;
@@ -73,9 +76,10 @@ header {
 .nav-link{
     color:teal;
 }
-nav ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+.navigations {
+    display: flex;
+    font-size: 1rem;
+ 
 }
 nav ul li {
     list-style-type: none;
@@ -85,6 +89,7 @@ nav ul li {
     font-size: 1.5rem;
     list-style: none;
     margin-left: 40px;
+   
 }
 nav ul li a {
     text-decoration: none;
@@ -131,6 +136,58 @@ nav ul li:hover i {
      line-height: normal;
  }
  
+    /* padding-top:30px;
+    width: 50%;
+    height: 50%;
+    margin-left: 800px;
+}
+.header-container{
+    border: none;
+    display: grid;
+    grid-template-columns:40% 60%;
+    
+   
+} */
+/* AWE STARTS HERE */
+.logo1{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    background-color: #ffffff;
+}
+.academy2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    background-color:#1982c4;
+    
+}
+
+.academy{
+    font-size: 2rem;
+     color: #ffffff; 
+     font-size: 50px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.log{
+    height: 190px;
+    width: 300px; 
+    display: block;
+    z-index: 11;
+    border-radius: 30%;
+    margin-left: 30px;
+}
+
+.academy{
+
+}
 .carousel-control-prev,
 .carousel-control-next{
     width: 50px;
@@ -356,3 +413,16 @@ nav ul li:hover i {
     width: 500px;
     padding-left:100px;
 } */
+
+/* about section of awe */
+.about_container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.about-awe{
+    font-size: 2rem;
+      color: red;
+     font-size:50px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
