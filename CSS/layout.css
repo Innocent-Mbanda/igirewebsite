@@ -1,6 +1,16 @@
 html{
     padding: 0;
     margin: 0;
+    background-color: #fff;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 *{
     margin: 0;
@@ -145,46 +155,7 @@ nav ul li:hover i {
 .carousel-control-next{
     right:5%;
 }
-/* AWE STARTS HERE */
-.logo1{
-    width: 100%;
-    height: 100%;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    position: relative;
-    background-color: #ffffff;
-}
-.academy2{
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    height: 100%;
-    background-color:#1982c4;
-    
-}
 
-.academy{
-    font-size: 2rem;
-     color: #ffffff; 
-     font-size: 50px;
-     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
-
-.log{
-    height: 190px;
-    width: 300px; 
-    display: block;
-    z-index: 11;
-    border-radius: 30%;
-    margin-left: 30px;
-}
-
-.academy{
-
-}
 .carousel-control-prev,
 .carousel-control-next{
     width: 50px;
@@ -411,15 +382,108 @@ nav ul li:hover i {
     padding-left:100px;
 } */
 
-/* about section of awe */
-.about_container{
+/* AWE STARTS HeaderHERE */
+.rwanda{
+    padding-top: 2rem;
+    background-color:whitesmoke;
+}
+.rwanda2{
+padding-top:3rem;
+
+}
+.awe-rwanda{
+    border-style: double ;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 70%;
+   
+}
+.awe-rwanda2{
+    border-style: double ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+   column-gap: 2rem;
+}
+ .logo1{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    background-color: #ffffff;
+}
+.academy2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+     background-color:#34495e
+ 
+    
+}
+.academy{
+    font-size: 2rem;
+     color: #ffffff; 
+     font-size: 50px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
+.log{
+    height: 190px;
+    width: 300px; 
+    display: block;
+    z-index: 11;
+    border-radius: 30%;
+    margin-left: 30px;
+} */
+
+/* about section of awe stars here */
+.container1{
+margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 .about-awe{
+   padding-left: 70px;
     font-size: 2rem;
-      color: red;
      font-size:50px;
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-image:url(/images/awe2.jpg);
+     height: 750px;
+     width:900px ;
+     background-size: cover;
+     background-position: center;
+}
+
+.about{
+    position: absolute;
+    width: 1240px;
+    top: 70%;
+    left: 300px;
+    transform: translate(-50%-50%);
+    font-size: 240%;
+     text-transform: uppercase; 
+    letter-spacing: 1px; 
+     word-spacing: 1px;
+     color: #2ecc71;  
+     max-width: 400px;  
+}
+.about:hover{
+border-bottom:0.5rem solid orange;
+transition:border-bottom 2sec ;
+/* background-color:#e67e22; */
+
+}
+
+.progams{
+    padding-top: 30px;
+    letter-spacing: 1px; 
+     word-spacing: 1px;
+     text-align: justify;
+     font-family: 'Roboto', sans-serif;
+     font-size:20px;
+     text-transform: capitalize;
+     margin-right: 100px;
 }
