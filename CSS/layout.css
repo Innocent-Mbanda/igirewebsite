@@ -500,6 +500,110 @@ nav ul li:hover i {
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
 }
+.port1:hover{
+  
+    background-color: black;
+    opacity:0.7
+}
+.port2:hover{
+  
+    background-color: black;
+    opacity:0.7
+}
+.port3:hover{
+    background-color: black;
+    opacity:0.7
+}
+.port4:hover{
+    background-color: black;
+    opacity:0.7
+}
+.port5:hover{
+    background-color: black;
+    opacity:0.7
+}
+.port6:hover{
+    background-color: black;
+    opacity:0.7
+}
+.port7:hover{
+    background-color: black;
+    opacity:0.7
+}
+.port8:hover{
+    background-color: black;
+    opacity:0.7
+}
+.btn-outline-warning{
+    position: absolute;
+    border:2px;
+    left:70px;
+    bottom: 10px;
+    width: 150px;
+    height:200px;
+    width: 200px;
+}
+
+#button1{
+    display:none;
+  font-size:20px;
+  background-color: transparent; 
+  border-color: whitesmoke;
+  color: black;
+}
+ #button2{
+     display:none;
+     font-size:20px;
+     background-color:  transparent; 
+     border-color:whitesmoke;
+     color: black;
+     font-size:54px;
+ }
+ #button3{
+     display:none;
+     font-size:20px;
+     background-color: transparent;
+      border-color:whitesmoke;
+      color: black;
+    }
+ #button4{
+     display:none;
+     font-size:20px;
+     background-color: transparent; 
+     border-color:whitesmoke;
+     color: black;
+ }
+ #button5{
+     display:none;
+     font-size:20px;
+     background-color: transparent;
+      border-color:whitesmoke;
+      color: black;
+    }
+ #button6{
+     display:none;
+     font-size:20px;
+     background-color: transparent;
+      border-color:whitesmoke;
+      color: black;
+    }
+ #button7{
+     display:none;
+     font-size:20px;
+     background-color: transparent;
+      border-color:whitesmoke;
+      color: black;
+    }
+ #button8{
+     display:none;
+     font-size:20px;
+     background-color: transparent; 
+     border-color:whitesmoke;
+     color: black;
+     font-size:30px;
+     text-transform: uppercase;
+     font: weight 900;
+ }
 
 
 
@@ -586,44 +690,7 @@ list-style-type:square;
 
 
 
-#button7{
-    display:none;
-    font-size:20px;
-    background-color: transparent;
-     border-color:whitesmoke;
-     color:white;
-}
-#button8 {
-    display:none;
-    font-size:20px;
-    background-color: transparent; 
-    border-color:whitesmoke;
-    color:white;
-    font-size:30px;
-    text-transform: uppercase;
-    font: weight 900;
-}
-.port4:hover{
-    background-color: black;
-    opacity:0.7
-}
-.port5:hover{
-    background-color: black;
-    opacity:0.7
-}
-.port6:hover{
-    background-color: black;
-    opacity:0.7
-}
-.port7:hover{
-    background-color: black;
-    opacity:0.7;
-    width:100px
-}
-.port8:hover{
-    background-color: black;
-    opacity:0.7
-}
+
 
 
 
