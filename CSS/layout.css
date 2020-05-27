@@ -445,9 +445,7 @@ nav ul li:hover i {
 
     
   }
-  div span{
-    background-image:linear-gradient(to bottom right, red, yellow);
-  }
+ 
   #triangle2 {
     margin-top:10px;
       width:100px;
@@ -458,15 +456,7 @@ nav ul li:hover i {
       /* background-image: linear-gradient(to bottom right, red, yellow); */
       
   }
-  span{
-    position:relative;
-    /* width: 150px; */
-    /* height: 150px; */
-    background-image:linear-gradient(to bottom right, red, yellow);
-    border-radius: 60% 40% 40% 20%;
   
-
-  }
  
   .us{
       width: 600px;
@@ -480,6 +470,8 @@ nav ul li:hover i {
       text-align: center;
       text-transform: capitalize;
       font-family: 'Roboto', sans-serif;
+      /* font-weight: bold; */
+      font-size:35px;
 
   }
 .team{
@@ -499,6 +491,22 @@ nav ul li:hover i {
     text-align: center;
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
+    font-size:35px;
+}
+.team h2{
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+    color: darkorange;
+}
+.team h5{
+    font-size: smaller;
+    text-align: center;
+}
+.team p{
+    text-align:justify;
+    font-size:23px;
 }
 .port1:hover{
   
@@ -613,9 +621,9 @@ footer {
     background: #16222A;
     background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
     background: linear-gradient(59deg, #3A6073, #16222A);
-    color: white;
+    color: #fff;
     margin-top:100px;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
  footer ul { list-style: none; }
@@ -639,9 +647,97 @@ color:white;
 font-weight: 500;
 margin: 1rem 0;
 padding: .4rem 0px;
-border-bottom: 1px solid #c7c7c7; 
+/* border-bottom: 1px solid #c7c7c7;  */
 letter-spacing: 3px;
 }
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  .social-network a.icoInstagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  }
+  .social-network a.icoTwitter:hover {
+    background-color: #007bb7;
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i,
+  .social-network a.icoInstagram:hover i,
+  .social-network a.icoTwitter:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+  
 
 footer.fa {
 color: #304f50;

@@ -55,11 +55,9 @@
               
           </div> -->
           <nav>
-            <img class="Logo-image" src="images/igire logo.png" alt="" width="50" >
-              <ul >
-                 <li class="nav-item">
-                  <a class="nav-link" href="#">HOME</a>
-                 </li>
+            <a href="index.html"><img class="Logo-image" src="images/igire logo.png" alt="" width="50" ></a>
+              <ul>
+                
                   <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         ABOUT 
@@ -83,7 +81,9 @@
                        
                       </div>
                     </li>
-                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">IMPACT</a>
+                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">CONTACT</a>
                     </li>
@@ -188,6 +188,15 @@
       <div class="row  row-no-gutters">
         <div class="col-xs-12 col-sm-6 col-md-3" >
           <ul>
+            <li class="col-heading"><img src="images/igire logo.png" style="border-radius: 50%;height: 100px;width:100px;"></li>
+            <p> Lorem Ipsum is not simply random text. It has roots in a piece of classical 
+              Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, 
+              a Latin professor at Hampden-Sydney College in Virginia, </p>
+           
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2" >
+          <ul>
             <li class="col-heading">CONTACT</li>
             <li>
               <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:99-999-999-9999">99-999-999-9999</a>
@@ -201,6 +210,9 @@
             <li>
                <i class="fa fa-envelope-square" aria-hidden="true"></i>  <a href="mailto:someone@yoursite.com?subject=Email Subject line">Email:igire@gmail.com</a>  
             </li> 
+            <li>
+              <i class="fa fa-skype" aria-hidden="true"></i>  <a href="#">Skype: you_online</a>  
+           </li> 
           </ul>
         </div>     
   
@@ -214,34 +226,29 @@
           </ul>
         </div>      
   
-        <div class="col-xs-12 col-sm-6 col-md-2" >
-          <ul>
-            <li class="col-heading">Twitter</li>
-            <li><a href="#">Link to page</a></li>
-            <li><a href="#">Link to page</a></li>
-            <li><a href="#">Link to page</a></li>
-            <li><a href="#">Link to page</a></li>
-          </ul>
-        </div>
+    
 
         <div class="col-xs-12 col-sm-6 col-md-2" >
           <ul>
             <li class="col-heading">Twitter</li>
+            <!-- <li><a href="#">Link to page</a></li>
             <li><a href="#">Link to page</a></li>
             <li><a href="#">Link to page</a></li>
-            <li><a href="#">Link to page</a></li>
-            <li><a href="#">Link to page</a></li>
+            <li><a href="#">Link to page</a></li> -->
           </ul>
         </div>
         
         <div class="col-xs-12 col-sm-6 col-md-2" >
-          <ul>
-            <li class="col-heading">Subheading</li>
-            <li><a href="#">Link to page</a></li>
-            <li><a href="#">Link to page</a></li>
-            <li><a href="#">Link to page</a></li>
-            <li><a href="#">Link to page</a></li>
-          </ul>
+         
+          <ul class="social-network social-circle">
+            <h4 class="col-heading">  Follow Us</h4>
+           <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+           <li><a href="#" class="icoInstagram" title="Linkedin"><i class="fa fa-instagram"></i></a></li>
+           <li><a href="#" class="icoTwitter" title="Linkedin"><i class="fa fa-twitter"></i></a></li>
+
+
+          </ul>				
         </div>
       </div> <!--  end row  -->
       
@@ -266,115 +273,7 @@
       </div> <!--  end row  -->
   
     </div> <!--  end container-fluid  -->
-  </footer>
-
-  
-  <script>
-  // Script from W3 Schools  
-  // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function() {scrollFunction()};
-  
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("to-top").style.display = "block";
-    } else {
-      document.getElementById("to-top").style.display = "none";
-    }
-  }
-  
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-
-
-  $(document).ready(function() {
-  $(".port1").hover(function(){
-  $(".port1").mouseenter(function(){
-  $("#button").show();
-  });
-
-  $(".port1").mouseleave(function(){
-  $("#button1").hide();
-  });
-  });
-  $(".port1").hover(function(){
-   $(".port1").mouseenter(function(){
-    $("#button1").show();
-  });
-    $(".port1").mouseleave(function(){
-    $("#button1").hide();
-  });
-  });
-  $(".port2").hover(function(){
-  $(".port2").mouseenter(function(){
-  $("#button2").show();
-  });
-  $(".port2").mouseleave(function(){
-  $("#button2").hide();
-   });
-  });
-  $(".port3").hover(function(){
-   $(".port3").mouseenter(function(){
-     $("#button3").show();
-     });
-    $(".port3").mouseleave(function(){
-    $("#button3").hide();
-  });
-  });
-  $(".port4").hover(function(){
-  $(".port4").mouseenter(function(){
-    $("#button4").show();
-    });
-    $(".port4").mouseleave(function(){
-    $("#button4").hide();
-    });   
-    });
-  $(".port5").hover(function(){
-    $(".port5").mouseenter(function(){
-    $("#button5").show();
-    });
-    $(".port5").mouseleave(function(){
-    $("#button5").hide();
-          });
-         
-      });
-      $(".port6").hover(function(){
-        $(".port6").mouseenter(function(){
-        $("#button6").show();
-        });
-        $(".port6").mouseleave(function(){
-          $("#button6").hide();
-          });
-         
-      });
-      $(".port7").hover(function(){
-        $(".port7").mouseenter(function(){
-        $("#button7").show();
-        });
-        $(".port7").mouseleave(function(){
-        $("#button7").hide();
-          });
-         
-      });
-      $(".port8").hover(function(){
-        $(".port8").mouseenter(function(){
-        $("#button8").show();
-        });
-        $(".port8").mouseleave(function(){
-          $("#button8").hide();
-          });
-         
-      });
-    });
-
-
-     
-
-  </script>
- 
-          
-    
+  </footer>       
+ <script src="js/javascript.js"  ></script> 
 </body>
 </html>
