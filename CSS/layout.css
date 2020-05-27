@@ -1,16 +1,6 @@
 html{
     padding: 0;
     margin: 0;
-    background-color: #fff;
-    color: #555;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    text-rendering: optimizeLegibility;
-}
-.row{
-    max-width: 1140px;
-    margin: 0 auto;
 }
 *{
     margin: 0;
@@ -154,25 +144,142 @@ nav ul li:hover i {
 
 .carousel-control-next{
     right:5%;
+}/* AWE STARTS HeaderHERE */
+.rwanda{
+    padding-top: 2rem;
+    background-color:whitesmoke;
+}
+.rwanda2{
+padding-top:3rem;
+
+}
+.awe-rwanda{
+    border-style: double ;
+    display: grid;
+    grid-template-columns: 30% 70%;
+   
+}
+.awe-rwanda2{
+    border-style: double ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+   column-gap: 2rem;
+}
+ .logo1{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    background-color: #ffffff;
+}
+.academy2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+     background-color:#34495e
+ 
+    
+}
+.academy{
+    font-size: 2rem;
+     color: #ffffff; 
+     font-size: 50px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
-.carousel-control-prev,
-.carousel-control-next{
-    width: 50px;
-    height: 50px;
-    background-color:black;
-    border-radius: 3%;
-    top: calc(50%);
+
+.log{
+    height: 190px;
+    width: 300px; 
+    display: block;
+    z-index: 11;
+    border-radius: 30%;
+    margin-left: 30px;
+} */
+
+/* about section of awe stars here */
+.container1{
+margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.about-awe{
+   padding-left: 100px;
+    font-size: 2rem;
+     font-size:50px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-image:url(../images/awe2.jpg);
+     height: 750px;
+     width:900px ;
+     background-size: cover;
+     background-position: center;
 }
 
-.carousel-control-prev{
-    left: 5%;
+.aboute{
+    position: absolute;
+    width: 1240px;
+    top: 70%;
+    left: 300px;
+    transform: translate(-50%-50%);
+    font-size: 240%;
+     text-transform: uppercase; 
+    letter-spacing: 1px; 
+     word-spacing: 1px;
+     color: #2ecc71;  
+     max-width: 400px;  
 }
-
-.carousel-control-next{
-    right:5%;
+.aboute:hover{
+border-bottom:0.5rem solid orange;
+/* transition:border-bottom 2sec ;  */
+/* background-color:#e67e22; */
+ } 
+.progams{
+    padding-top: 30px;
+    letter-spacing: 1px; 
+     word-spacing: 1px;
+     text-align: justify;
+     font-family: 'Roboto', sans-serif;
+     font-size:20px;
+     text-transform: capitalize;
+     margin-right: 100px;
 }
+/* impact pictures section for awe programs*/
+.awe-images{
+    border-style: double ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+   column-gap:0.5rem;
+   background-color: orange;
+}
+.image1{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+.image2{
+    width: 96%;
+    height: 100%;
+    padding: 30px;
+   
+    
+}
+.image3{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+.image4{
+    width: 96%;
+    height: 100%;
+    padding: 30px;
 
+    
+}
 
 /* style for programs */
 
@@ -382,147 +489,25 @@ nav ul li:hover i {
     padding-left:100px;
 } */
 
-/* AWE STARTS HeaderHERE */
-.rwanda{
-    padding-top: 2rem;
-    background-color:whitesmoke;
-}
-.rwanda2{
-padding-top:3rem;
-
-}
-.awe-rwanda{
-    border-style: double ;
+/* about section of awe */
+.about_container{
     display: grid;
-    grid-template-columns: 30% 70%;
-   
-}
-.awe-rwanda2{
-    border-style: double ;
-    display: grid;
-    grid-template-columns: 50% 50%;
-   column-gap: 2rem;
-}
- .logo1{
-    width: 100%;
-    height: 100%;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    position: relative;
-    background-color: #ffffff;
-}
-.academy2{
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    height: 100%;
-     background-color:#34495e
- 
-    
-}
-.academy{
-    font-size: 2rem;
-     color: #ffffff; 
-     font-size: 50px;
-     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    grid-template-columns: 40% 60%;
 }
 
-.log{
-    height: 190px;
-    width: 300px; 
-    display: block;
-    z-index: 11;
-    border-radius: 30%;
-    margin-left: 30px;
-} */
-
-/* about section of awe stars here */
-.container1{
-margin-top: 50px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
 .about-awe{
-   padding-left: 100px;
     font-size: 2rem;
+      color: red;
      font-size:50px;
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     background-image:url(/images/awe2.jpg);
-     height: 750px;
-     width:900px ;
-     background-size: cover;
-     background-position: center;
-}
-
-.about{
-    position: absolute;
-    width: 1240px;
-    top: 70%;
-    left: 300px;
-    transform: translate(-50%-50%);
-    font-size: 240%;
-     text-transform: uppercase; 
-    letter-spacing: 1px; 
-     word-spacing: 1px;
-     color: #2ecc71;  
-     max-width: 400px;  
-}
-.about:hover{
-border-bottom:0.5rem solid orange;
-transition:border-bottom 2sec ;
-/* background-color:#e67e22; */
-}
-.progams{
-    padding-top: 30px;
-    letter-spacing: 1px; 
-     word-spacing: 1px;
-     text-align: justify;
-     font-family: 'Roboto', sans-serif;
-     font-size:20px;
-     text-transform: capitalize;
-     margin-right: 100px;
-}
-/* impact pictures section for awe programs*/
-.awe-images{
-    border-style: double ;
-    display: grid;
-    grid-template-columns: 50% 50%;
-   column-gap:0.5rem;
-   background-color: orange;
-}
-.image1{
-    width: 100%;
-    height: 100%;
-    padding: 30px;
-}
-.image2{
-    width: 96%;
-    height: 100%;
-    padding: 30px;
-   
-    
-}
-.image3{
-    width: 100%;
-    height: 100%;
-    padding: 30px;
-}
-.image4{
-    width: 96%;
-    height: 100%;
-    padding: 30px;
-
-    
 }
 
 
 
-
-=======
 /* Team section */
+
+
+
 .about{
     height:450px;
     padding-top:100px;
@@ -829,8 +814,6 @@ font-weight: 400;
 margin-left: 1rem;
 list-style-type:square;
 }
-
-
 
 
 
