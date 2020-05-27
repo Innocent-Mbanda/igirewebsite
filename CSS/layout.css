@@ -498,16 +498,21 @@ nav ul li:hover i {
     font-size: medium;
     font-weight: bolder;
     text-align: center;
-    color: darkorange;
+    color: black;
+    margin-top: 10px;
 }
 .team h5{
     font-size: smaller;
     text-align: center;
+    color:darkslategray;
+    font-weight: bold;
 }
-.team p{
-    text-align:justify;
-    font-size:23px;
+.team i{
+    width: 50px;
+    border-radius: 50%;
 }
+
+ 
 .port1:hover{
   
     background-color: black;
@@ -552,67 +557,14 @@ nav ul li:hover i {
     width: 200px;
 }
 
-#button1{
-    display:none;
+#button1,#button2,#button3,#button4,#button5,#button6,#button7,#button8{
+  display:none;
   font-size:20px;
-  background-color: transparent; 
-  border-color: whitesmoke;
-  color: black;
-}
- #button2{
-     display:none;
-     font-size:20px;
-     background-color:  transparent; 
-     border-color:whitesmoke;
-     color: black;
-     font-size:54px;
- }
- #button3{
-     display:none;
-     font-size:20px;
-     background-color: transparent;
-      border-color:whitesmoke;
-      color: black;
-    }
- #button4{
-     display:none;
-     font-size:20px;
-     background-color: transparent; 
-     border-color:whitesmoke;
-     color: black;
- }
- #button5{
-     display:none;
-     font-size:20px;
-     background-color: transparent;
-      border-color:whitesmoke;
-      color: black;
-    }
- #button6{
-     display:none;
-     font-size:20px;
-     background-color: transparent;
-      border-color:whitesmoke;
-      color: black;
-    }
- #button7{
-     display:none;
-     font-size:20px;
-     background-color: transparent;
-      border-color:whitesmoke;
-      color: black;
-    }
- #button8{
-     display:none;
-     font-size:20px;
-     background-color: transparent; 
-     border-color:whitesmoke;
-     color: black;
-     font-size:30px;
-     text-transform: uppercase;
-     font: weight 900;
- }
+  color: gray;
+  text-align: center;
+  line-height: 1.5em;
 
+}
 
 
 /* footer */
