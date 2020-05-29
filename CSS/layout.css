@@ -631,11 +631,11 @@ border-bottom:0.5rem solid orange;
 /* Team section */
 
 .aboutus{
-    height: 500px;
+    height: 600px;
     background-image: url(../images/awe2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 1200px;
+    background-size: 1400px;
     margin-left: 200px;
     
 }
