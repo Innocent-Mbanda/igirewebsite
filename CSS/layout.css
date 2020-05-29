@@ -633,6 +633,7 @@ border-bottom:0.5rem solid orange;
 .aboutus{
     height: 500px;
     background-image: url(../images/awe2.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 1200px;
     margin-left: 200px;
@@ -660,6 +661,7 @@ border-bottom:0.5rem solid orange;
      text-align: center;
      font-family: 'Roboto', sans-serif;
 }
+
 
 
 .about{
