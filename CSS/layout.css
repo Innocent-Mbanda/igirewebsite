@@ -276,12 +276,129 @@ border-bottom:0.5rem solid orange;
 .image4{
     width: 96%;
     height: 100%;
-    padding: 30px;
-
+    padding: 30px; 
+}
+.impactpage{
+    border-style: double solid ;
+    margin-top:0;
+    padding: 0;
+    font-size: 2rem;
+     font-size:50px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+     height:100%;
+     width:100% ;
+     background-image:url(../images/awe2.jpg);
+     background-color:black;
+     background-size: cover;
+     background-position: center;
+    position: relative; 
+    display:flex
     
 }
 
-/* style for programs */
+.impact2{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    padding: 70px;
+    color: black;
+    text-align:center;
+    font-size: 25px;
+    line-height: 1.8rem; 
+    vertical-align: baseline;
+    word-spacing: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.para {
+    margin-top:15% ;
+    border-style: double solid;
+    margin-left: 0PX;
+    width: 1300px;
+     height: 500px;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight:50;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(16, 70, 70);
+    align-items:center;
+    justify-content: center;
+}
+
+.impact3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    padding: 70px;
+    color: black;
+    text-align:center;
+    font-size: 25px;
+    line-height: 1.8rem; 
+    vertical-align: baseline;
+    word-spacing: inherit;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.para3 {
+    margin-top:15% ;
+    border-style: double solid;
+    margin-left: 0PX;
+    width: 1300px;
+     height: 500px;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight:50;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:orange;
+    align-items:center;
+    justify-content: center;
+}
+.impactsection{
+    height:100%;
+     width:100% ;
+     padding: 0;
+     margin:0;
+}
+.impactcontainer{
+    display: flex;
+}
+
+.imageofimpact img{
+    width: 80%;
+    height: 100%;
+}
+.studenttestimony{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    padding-top:  70px;
+    color: black;
+    text-align:center;
+    font-size: 25px;
+    line-height: 1.8rem; 
+    vertical-align: baseline;
+    word-spacing: inherit;
+    font-family: 'Times New Roman', Times, serif; 
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* style for programs */
 
 .Programs{
     font-family: Arial, Helvetica, sans-serif;
@@ -291,12 +408,12 @@ border-bottom:0.5rem solid orange;
     background-attachment: fixed;
     margin-top: 20px;
     padding-top:40px;
-
     padding-left:50px;
     height: 600px;
-    /* background-color: black;
-    opacity: 0,5; */
-}
+    background-color: black;
+    opacity: 0,5; 
+} 
+
 .Programs h2{
     text-transform: capitalize;
     font-weight: bold;
@@ -814,4 +931,5 @@ font-weight: 400;
 margin-left: 1rem;
 list-style-type:square;
 }
+
 
