@@ -51,13 +51,11 @@ header {
     background-color:white;
     border-bottom:1px solid teal;
     border-bottom-width:thin;
-    color:teal
+    
     
 }
 
-.dropdown-toggle {
-    color: teal;
-}
+
 .Logo-image{
     height: 80PX;
     width: auto;
@@ -67,7 +65,15 @@ header {
 }
 
 .nav-link{
-    color:teal;
+    color: rgb(10, 37, 37);
+}
+.dropdown-item{
+    color: rgb(10, 37, 37);
+    font-size: 1rem;
+
+}
+.dropdown-item:hover{
+    color:teal
 }
 nav ul {
     display: grid;
@@ -103,26 +109,30 @@ nav ul li a i {
 nav ul li:hover {
     border: 10px solid #2589bd;
     background-color: #e7e1e1;
+    
+}
+a:hover{
+    color:teal;
 }
 
 nav ul li:hover i {
-    color: #35336b;
+    color: yellowgreen;
 }
 /* SLIDING IMAGES */
 
 .carousel-item img{
     /* padding-top:30px; */
-    width: 40%;
-    height:500px;
-    margin-left: 600px;
+    width:60%;
+    height:50%px;
+    margin-left:550px;
      
  } 
  .carousel-caption{
      color:black;
      /* position:fixed;  */
-     text-align: center;
-     width:300px;
-     left:120px; 
+     text-align:justify;
+     width:20%;
+     left:80px; 
      top:50px;
      font-weight:bold;
      font-size:40px;
@@ -144,7 +154,8 @@ nav ul li:hover i {
 
 .carousel-control-next{
     right:5%;
-}/* AWE STARTS HeaderHERE */
+}
+/* AWE STARTS HeaderHERE */
 .rwanda{
     /* padding-top: 2rem; */
     background-color:whitesmoke;
@@ -237,17 +248,7 @@ border-bottom:0.5rem solid orange;
 /* transition:border-bottom 2sec ;  */
 /* background-color:#e67e22; */
  } 
-.progams{
-    padding-top: 30px;
-    letter-spacing: 1px; 
-     word-spacing: 1px;
-     text-align: justify;
-     font-family: 'Roboto', sans-serif;
-     font-size:25px;
-     text-transform: capitalize;
-     margin-right: 100px;
-     
-}
+
 /* impact pictures section for awe programs*/
 .awe-images{
     border-style: double ;
@@ -426,10 +427,10 @@ border-bottom:0.5rem solid orange;
     background-attachment: fixed;
     margin-top: 20px;
     padding-top:40px;
-    padding-left:50px;
     height: 600px;
     background-color: black;
     opacity: 0,5; 
+    text-align: center;
 } 
 
 .Programs h2{
@@ -449,7 +450,7 @@ border-bottom:0.5rem solid orange;
     border-radius: 2px;
     display: inline-block;
     height: 400px;
-    margin: 1rem;
+    margin:1.5em;
     position: relative;
     width: 350px;
     /* box-shadow: 0 0 10px; */
@@ -459,10 +460,12 @@ border-bottom:0.5rem solid orange;
       font-weight: bold;
       color:rgba(255, 255, 255, 0.986);
       text-align: center;
+
       
   }
   .card p{
     margin-top:30px;
+    /* text-align: */
  }
  .card h1{
      padding-top: 10px;
@@ -509,7 +512,9 @@ border-bottom:0.5rem solid orange;
 
 }
 .carde{
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 .col-sm-3 h5{
     font-weight: bold;
@@ -517,7 +522,7 @@ border-bottom:0.5rem solid orange;
 .card-body{
     box-shadow:0 0 10px;
     background-color: white;
-    /* margin-left: 20px; */
+    width:280px;
    
 }
 .story h1{
@@ -598,22 +603,27 @@ border-bottom:0.5rem solid orange;
     margin-top: 20px;
     text-align:center;
     /* margin-left: 8%; */
-    color: black ;
-    float:right;
+    color: rgb(10, 37, 37);
+    float:right ;
      width: 70%;
 }
 .missions-vission{
     margin-top:80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 145%;
-    text-align: center;
+    /* text-align: center; */
+    
     color: black; 
     height: 300px;
+}
+.missions-vission p,h1{
+    margin-left: 30px;
+
 }
 .missions-vission h1{
     text-align: justify;
     font-family: 'Roboto', sans-serif;
-    font-size:35px;
+    font-size:bold;
     text-transform: capitalize;
    
 }
@@ -641,10 +651,42 @@ border-bottom:0.5rem solid orange;
 
 /* Team section */
 
+.aboutus{
+    height: 600px;
+    background-image: url(../images/awe2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    margin-left: 200px;
+    
+}
+.aboutusp{
+    background:black;
+    opacity: 0.9;
+    color:whitesmoke;
+    text-align: center;
+    border-radius: 2px;
+    /* display: inline-block; */
+    height:250px;
+    margin-top:170px;
+    margin-left:-100px;
+    width: 700px;
+    text-align: center;
+
+}
+.aboutus h2{
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 24px;
+    text-transform: uppercase;
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+}
+
 
 
 .about{
-    height:450px;
+    height:250px;
     padding-top:100px;
 }
  /* .team h1{
@@ -652,21 +694,23 @@ border-bottom:0.5rem solid orange;
    
 }  */
 #triangle {
-    /* margin-top:100px; */
-    width:300px;
-    height:0;
-    border-top: 300px solid lightblue;
-    border-right:300px solid transparent;
-    float:left;
+    margin-top:10px;
+    width:150px;
+    height:150px;
+    border-top: 270px solid rgb(16, 70, 70) ;
+    border-right: 200px solid transparent;
+    float: left;
+    margin-left: -15px;
+    
 
     
   }
  
   #triangle2 {
-    margin-top:10px;
+      margin-top:10px;
       width:100px;
       height:0;
-      border-top: 200px solid ;
+      border-top: 200px solid orange ;
       border-left: 200px solid transparent;
       float: right;
       /* background-image: linear-gradient(to bottom right, red, yellow); */
@@ -675,10 +719,10 @@ border-bottom:0.5rem solid orange;
   
  
   .us{
-      width: 600px;
-      text-align: justify;
+      /* width: 600px; */
+      text-align:center;
       /* float: right; */
-      margin-left:10px;
+      margin-right:10px;
       /* padding-right:50px;; */
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -697,7 +741,7 @@ border-bottom:0.5rem solid orange;
   /* width:40px; */
   /* height:40px; */
   background-color:#F7F7FA;
-  height:950px;
+  height:650px;
   border-bottom-left-radius:20%; 
   border-top-right-radius:20%;
   /* box-shadow: 0 0 0 250px #522d5b; */
@@ -787,21 +831,28 @@ border-bottom:0.5rem solid orange;
 
 footer {
     background: #16222A;
-    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
-    background: linear-gradient(59deg, #3A6073, #16222A);
-    color: #fff;
+    background: -webkit-linear-gradient(59deg, rgb(16, 70, 70),black);
+    background: linear-gradient(59deg,rgb(16, 70, 70),black);
+    color:white;
     margin-top:100px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    padding-top: 50px;
   }
 
- footer ul { list-style: none; }
+ footer ul { 
+     list-style: none;
+     
+ 
+ }
  footer ul>li>a {
-color:white;
+color:whitesmoke;
 text-decoration: none;
 line-height: 1.8;
+
 }
  footer ul>li>a:hover,
-a:hover{
+ footer a:hover{
 color: #ff6600;
 font-weight: 500;
 } 
@@ -811,10 +862,11 @@ font-weight: 500;
 display: block;
 font-size:1.5rem;
 text-transform: uppercase;
-color:white;
-font-weight: 500;
+color:whitesmoke;
+font-size: medium;
+font-weight: 50;
 margin: 1rem 0;
-padding: .4rem 0px;
+/* padding: .4rem 0px; */
 /* border-bottom: 1px solid #c7c7c7;  */
 letter-spacing: 3px;
 }
@@ -853,7 +905,7 @@ ul.social-network {
   .social-network a.icoLinkedin:hover i,
   .social-network a.icoInstagram:hover i,
   .social-network a.icoTwitter:hover i {
-    color: #fff;
+    color: white;
   }
   
   .social-network a.socialIcon:hover,
@@ -894,7 +946,7 @@ ul.social-network {
   }
   
   .social-circle i {
-    color: #595959;
+    color: #304f50;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
     -o-transition: all 0.8s;
@@ -903,7 +955,8 @@ ul.social-network {
   }
   
   .social-network a {
-    background-color: #F9F9F9;
+    background-color:white;
+    
   }
   
 
@@ -934,7 +987,7 @@ background-color: #555;
 
 
 #bottom-footer {
-background-color:cadetblue;
+ background-color:rgb(16, 70, 70);
 color:white;
 margin-top: 2rem;
 padding-top: .3rem;
