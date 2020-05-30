@@ -223,7 +223,7 @@ margin-top: 50px;
     font-size: 2rem;
      font-size:50px;
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     background-image:url(../images/awe2.jpg);
+     background-image:url(../images/awe-Rwanda.jpg);
      height: 750px;
      width:900px ;
      background-size: cover;
@@ -365,11 +365,29 @@ border-bottom:0.5rem solid orange;
 .impactcontainer{
     display: flex;
 }
-
-.imageofimpact img{
-    width: 80%;
-    height: 100%;
+.expectations{
+    text-align: center;
 }
+
+.imagefromtraining{
+    margin-left: 60px;
+    color: lightgreen;
+    width: 10%;
+    height:10%;
+}
+.training{
+    /* display: flex; */
+}
+.students_conta{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.whatoexpect{
+
+
+}
+
+
 .studenttestimony{
     margin: 0;
     padding: 0;
