@@ -123,8 +123,8 @@ nav ul li:hover i {
 .carousel-item img{
     /* padding-top:30px; */
     width:60%;
-    height:500px;
-    margin-left:450px;
+    height:50%px;
+    margin-left:550px;
      
  } 
  .carousel-caption{
@@ -586,7 +586,7 @@ border-bottom:0.5rem solid orange;
     text-align:center;
     /* margin-left: 8%; */
     color: rgb(10, 37, 37);
-    float:right;
+    float:right ;
      width: 70%;
 }
 .missions-vission{
