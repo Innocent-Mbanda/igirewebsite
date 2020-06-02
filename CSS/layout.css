@@ -808,6 +808,21 @@ border-bottom:0.5rem solid orange;
 
 }
 
+.contactus{
+    background-image: url(../images/story.jpeg);
+    height: 400px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contactus h2{
+    padding-top:20px;
+    text-transform: capitalize;
+}
+.contactus p{
+    padding-top:20px;
+  
+}
 
 /* footer */
 
@@ -985,4 +1000,4 @@ margin-left: 1rem;
 list-style-type:square;
 }
 
-
+ 
