@@ -15,7 +15,19 @@
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
+    
 
+// ...................TWITTER......................
+
+
+
+  twttr.widgets.createTweet(
+    "20",
+    document.getElementById("tweet-container"),
+    {
+      theme: "dark"
+    }
+  );
 
   $(document).ready(function() {
   $(".port1").hover(function(){
