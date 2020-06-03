@@ -123,8 +123,8 @@ nav ul li:hover i {
 .carousel-item img{
     /* padding-top:30px; */
     width:60%;
-    height:500px;
-    margin-left:450px;
+    height:50%px;
+    margin-left:550px;
      
  } 
  .carousel-caption{
@@ -201,8 +201,6 @@ padding-top:0rem;
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-
-
 .log{
     height: 190px;
     width: 300px; 
@@ -223,7 +221,7 @@ margin-top: 50px;
     font-size: 2rem;
      font-size:50px;
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     background-image:url(../images/awe2.jpg);
+     background-image:url(../images/awe-Rwanda.jpg);
      height: 750px;
      width:900px ;
      background-size: cover;
@@ -245,17 +243,12 @@ margin-top: 50px;
 }
 .aboute:hover{
 border-bottom:0.5rem solid orange;
-/* transition:border-bottom 2sec ;  */
-/* background-color:#e67e22; */
  } 
 
 /* impact pictures section for awe programs*/
 .awe-images{
-    border-style: double ;
     display: grid;
     grid-template-columns: 50% 50%;
-   /* column-gap:0.5rem; */
-   /* background-color: orange; */
 }
 .image1{
     width: 100%;
@@ -280,7 +273,6 @@ border-bottom:0.5rem solid orange;
     padding: 30px; 
 }
 .impactpage{
-    border-style: double solid ;
     margin-top:0;
     padding: 0;
     font-size: 2rem;
@@ -296,7 +288,11 @@ border-bottom:0.5rem solid orange;
     display:flex
     
 }
-
+.impacttotheprogram{
+    margin-top:10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 .impact2{
     margin: 0;
     padding: 0;
@@ -310,22 +306,11 @@ border-bottom:0.5rem solid orange;
     vertical-align: baseline;
     word-spacing: inherit;
     font-family: 'Times New Roman', Times, serif;
-    
-
 }
 .para {
     margin-top:15% ;
-    border-style: double solid;
-    margin-left: 0PX;
-    width: 1300px;
-     height: 500px;
-    text-align: justify;
-    font-size: 1rem;
-    font-weight:50;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(16, 70, 70);
+    background-color:#f4a261;
     align-items:center;
-    justify-content: center;
 }
 
 .impact3{
@@ -344,17 +329,16 @@ border-bottom:0.5rem solid orange;
 }
 .para3 {
     margin-top:15% ;
-    border-style: double solid;
     margin-left: 0PX;
-    width: 1300px;
-     height: 500px;
-    text-align: justify;
-    font-size: 1rem;
-    font-weight:50;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:orange;
-    align-items:center;
+    background-color:#007f5f;
     justify-content: center;
+}
+.impact3{
+    font-size: 25px;
+    color: ivory;
+    font-weight:50;
+    align-items:center;
+    word-spacing:0.5rem;
 }
 .impactsection{
     height:100%;
@@ -363,13 +347,55 @@ border-bottom:0.5rem solid orange;
      margin:0;
 }
 .impactcontainer{
-    display: flex;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.expectations{
+    text-align: center;
+}
+.imageofimpact img{
+    width: 100%;
+    height: 100%;
+    columns: 1;
 }
 
-.imageofimpact img{
-    width: 80%;
-    height: 100%;
+.studenttestimony{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    padding: 70px;
+    color: black;
+    text-align:center;
+    font-size: 25px;
+    line-height: 1.8rem; 
+    vertical-align: baseline;
+    word-spacing: inherit;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
 }
+.containercontent{
+     margin-top:15% ;
+    margin-left: 0PX;
+    justify-content: center;
+}
+
+.imagefromtraining{
+    margin-left: 60px;
+    color: lightgreen;
+    width: 10%;
+    height:10%;
+}
+.training{
+    /* display: flex; */
+}
+.students_conta{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+
+
 .studenttestimony{
     margin: 0;
     padding: 0;
@@ -586,7 +612,7 @@ border-bottom:0.5rem solid orange;
     text-align:center;
     /* margin-left: 8%; */
     color: rgb(10, 37, 37);
-    float:right;
+    float:right ;
      width: 70%;
 }
 .missions-vission{
