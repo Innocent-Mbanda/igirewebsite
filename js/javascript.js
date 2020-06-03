@@ -21,13 +21,7 @@
 
 
 
-  twttr.widgets.createTweet(
-    "20",
-    document.getElementById("tweet-container"),
-    {
-      theme: "dark"
-    }
-  );
+
 
   $(document).ready(function() {
   $(".port1").hover(function(){
