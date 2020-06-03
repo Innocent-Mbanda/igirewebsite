@@ -407,6 +407,7 @@ margin-top: 50px;
      margin:0;
 }
 .impactcontainer{
+    border-style: solid;
     display: grid;
     grid-template-columns: 70% 30%;
 }
