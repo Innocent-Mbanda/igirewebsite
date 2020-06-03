@@ -139,8 +139,8 @@ nav ul li:hover i {
 
 .images-container{
     position: relative;
-    height: 500px;
-}
+    height:800px;
+} 
 .images-container:after{
     content : "";
   position: absolute;
@@ -769,17 +769,12 @@ margin-top: 50px;
  
 
 .missions_vission{
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    
     font-family: 'Open Sans', sans-serif;
-    /* font-size: 10px; */
-    /* font-size: 60px; */
     line-height: 145%;
-    /* width: 70%; */
     text-align: center;
-    /* margin-left: 20%; */
     margin-top: 20px;
     text-align:center;
-    /* margin-left: 8%; */
     color: rgb(10, 37, 37);
     float:right ;
      width: 70%;
@@ -809,21 +804,14 @@ margin-top: 50px;
     text-transform: capitalize;
    
 }
-/* .mission{
-    border-bottom:1px solid  goldenrod;
-    border-bottom-width:thin;
-    width: 500px;
-    padding-left:100px;
-} */
+
 
 /* about section of awe */
 .about_container{
     display: grid;
     grid-template-columns: 40% 60%;
 }
-.awe{
-    /* border-style: solid; */
-}
+
 .about-awe{
     font-size: 2rem;
       color: red;
