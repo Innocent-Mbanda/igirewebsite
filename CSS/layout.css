@@ -172,6 +172,22 @@ nav ul li:hover i {
   border-bottom:1px solid orange;
 } */
 
+.images-container {
+    position: relative;
+    height: 800px;
+}
+
+.images-container:after {
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    left: 400px;
+    height: 1px;
+    width: 40%;
+    /* or 100px */
+    border-bottom: 1px solid orange;
+}
+
 
 /* AWE STARTS HeaderHERE */
 
@@ -187,10 +203,11 @@ nav ul li:hover i {
 .awe-rwanda {
     /* border-style: double ; */
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 50% 50%;
 }
 
 .awe-rwanda2 {
+    /* border-style: solid; */
     display: grid;
     grid-template-columns: 50% 50%;
     /* column-gap: 2rem; */
@@ -212,7 +229,7 @@ nav ul li:hover i {
     align-content: center;
     width: 100%;
     height: 100%;
-    background-color: #f3722c
+    background-color: #264653
 }
 
 .academy {
@@ -241,39 +258,39 @@ nav ul li:hover i {
 }
 
 .about-awe {
-    padding-left: 100px;
+    /* border-style: solid; */
     font-size: 2rem;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(../images/awe-Rwanda.jpg);
-    height: 750px;
-    width: 900px;
+    height: 130%;
+    width: 100%;
     background-size: cover;
     background-position: center;
 }
 
-.aboute {
-    position: absolute;
-    width: 1240px;
-    top: 70%;
-    left: 300px;
-    transform: translate(-50%-50%);
-    font-size: 240%;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    color: #2ecc71;
-    max-width: 400px;
+.progamawe {
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    word-spacing: 0.5em;
+    font-weight: 200;
 }
 
-.aboute:hover {
-    border-bottom: 0.5rem solid orange;
+.progamawe h1 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    text-align: center;
+    word-spacing: 0.5em;
 }
 
 
 /* impact pictures section for awe programs*/
 
 .awe-images {
+    /* border-style: double ; */
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column: 4rem;
@@ -288,10 +305,40 @@ nav ul li:hover i {
 .image2 {
     width: 100%;
     height: 100%;
+    /* border-style: solid;
+    */
+}
+
+.AboutThisProgram {
+    /* border-style: double; */
+    width: 100%;
+    height: 100%;
     padding: 30px;
 }
 
-.image3 {
+.AboutThisProgram h1 {
+    color: #05668d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+    word-spacing: 1rem;
+}
+
+.AboutThisProgram p {
+    color: #00b4d8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 80px;
+}
+
+.Goals-awe {
+    /* border-style: double; */
     width: 100%;
     height: 100%;
     padding: 0;
@@ -327,6 +374,7 @@ nav ul li:hover i {
 }
 
 .impactpage {
+    /* border-style: double solid ; */
     margin-top: 0;
     padding: 0;
     font-size: 2rem;
@@ -450,18 +498,51 @@ nav ul li:hover i {
     word-spacing: 1rem;
 }
 
-.imagefromtraining {
-    margin-left: 60px;
-    color: lightgreen;
-    width: 10%;
-    height: 10%;
-}
-
 .training {
-    /* display: flex; */
+    /* border-style: double; */
+    padding-left: 5%;
+    border-style: double;
+    background-color: lawngreen;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33rem 33rem 33rem;
+    /* grid-template-rows:45rem 45rem 45rem ; */
 }
 
-.students_conta {
+.imagefromtraining {
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 70px;
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 60%;
+    max-height: 50%;
+    margin-left: 20%;
+    /* border-radius: 50%; */
+}
+
+.student-awe {
+    margin-top: 50%;
+    grid-column: 1;
+    grid-row: 1;
+    color: #90be6d;
+    word-spacing: 1rem;
+    text-transform: uppercase;
+}
+
+.whatoexpect {
+    color: #028090;
+    text-align: center;
+    margin: 10%;
+    margin-top: 60%;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.imagefromtraining2 {
     margin-top: 20px;
     margin-left: 70px;
     grid-column: 2;
@@ -515,7 +596,7 @@ nav ul li:hover i {
     grid-column: 3;
     grid-row: 1;
     color: #90be6d;
-    margin-right: 25%;
+    margin-right: 20%;
 }
 
 .whatoexpect3 {
@@ -524,7 +605,7 @@ nav ul li:hover i {
     grid-row: 1;
     color: #028090;
     text-align: center;
-    margin: 10%;
+    margin: 15%;
     font-size: 20px;
     font-weight: 200;
 }
@@ -730,14 +811,14 @@ nav ul li:hover i {
     text-align: center;
     margin-top: 20px;
     text-align: center;
-    /* margin-left: 8%; */
     color: rgb(10, 37, 37);
     float: right;
     width: 70%;
 }
 
 .missions-vission {
-    margin-top: 80px;
+    /* border-top: 1px solid orange; */
+    margin-top: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 145%;
     /* text-align: center; */
@@ -1231,4 +1312,11 @@ footer.fa {
 .vertical-links>li {
     display: inline-block;
     vertical-align: text-bottom;
+}
+
+.vertical-links>li>a {
+    color: white;
+    font-weight: 400;
+    margin-left: 1rem;
+    list-style-type: square;
 }
