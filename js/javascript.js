@@ -15,6 +15,14 @@
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
+    
+
+// ...................TWITTER......................
+
+
+
+
+
 
 
   $(document).ready(function() {
