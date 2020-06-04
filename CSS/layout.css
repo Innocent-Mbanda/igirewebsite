@@ -505,7 +505,7 @@ nav ul li:hover i {
     background-color: lawngreen;
     text-align: center;
     display: grid;
-    grid-template-columns: 30rem 30rem 30rem;
+    grid-template-columns: 25rem 25rem 25rem;
     /* grid-template-rows:45rem 45rem 45rem ; */
 }
 
