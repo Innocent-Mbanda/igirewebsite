@@ -500,12 +500,12 @@ nav ul li:hover i {
 
 .training {
     /* border-style: double; */
-    padding-left: 5%;
+    padding-left: 2%;
     border-style: double;
     background-color: lawngreen;
     text-align: center;
     display: grid;
-    grid-template-columns: 33rem 33rem 33rem;
+    grid-template-columns: 30rem 30rem 30rem;
     /* grid-template-rows:45rem 45rem 45rem ; */
 }
 
@@ -601,11 +601,12 @@ nav ul li:hover i {
 
 .whatoexpect3 {
     padding-top: 50%;
+    padding-right: 40px;
     grid-column: 3;
     grid-row: 1;
     color: #028090;
     text-align: center;
-    margin: 15%;
+    margin: 12%;
     font-size: 20px;
     font-weight: 200;
 }
