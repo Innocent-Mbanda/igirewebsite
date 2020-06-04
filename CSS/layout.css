@@ -136,7 +136,7 @@ nav ul li:hover i {
 .carousel-control-next{
     right:5%;
 }
-
+/* 
 .images-container{
     position: relative;
     height:800px;
@@ -147,9 +147,9 @@ nav ul li:hover i {
   bottom:-50px;
   left    :400px;
   height  : 1px;
-  width   : 40%;  /* or 100px */
+  width   : 40%;  
   border-bottom:1px solid orange;
-}
+} */
 /* AWE STARTS HeaderHERE */
 .rwanda{
     /* padding-top: 2rem; */
@@ -361,13 +361,13 @@ margin-top: 50px;
     margin-top:15% ;
     background-color:#f4a261;
     /* border-style: double solid; */
-    margin-left: 0PX;
-    width: 1300px;
+    /* margin-left: 0PX; */
+    /* width: 1300px; */
      /* height: 500px; */
-    text-align: justify;
+    /* text-align: justify;
     font-size: 1rem;
     font-weight:50;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; */
     /* background-color:rgb(16, 70, 70); */
     align-items:center;
 }
@@ -459,7 +459,7 @@ margin-top: 50px;
 }
 .imagefromtraining{
     margin-top: 20px;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     grid-column: 1;
     grid-row: 1;
     max-width: 60%;
