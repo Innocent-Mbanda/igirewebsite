@@ -360,7 +360,6 @@ nav ul li:hover i {
     color: #00b4d8;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 200;
-    font-weight: 200;
     font-size: 20px;
     text-align: justify;
     padding-top: 25px;
@@ -460,10 +459,6 @@ nav ul li:hover i {
     grid-template-columns: 70% 30%;
 }
 
-.expectations {
-    text-align: center;
-}
-
 .imageofimpact img {
     width: 100%;
     height: 100%;
@@ -493,122 +488,92 @@ nav ul li:hover i {
 }
 
 .expectations {
-    margin-left: 30%;
-    font-family: 'Times New Roman', Times, serif;
-    word-spacing: 1rem;
+    margin-left: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* word-spacing: 0.4rem; */
+    font-size: 25px;
+    text-align: center;
 }
 
-.training {
-    /* border-style: double; */
-    padding-left: 2%;
-    border-style: double;
-    background-color: lawngreen;
-    text-align: center;
+.ABOUTWHATWEDO {
+    border-style: dotted;
+    padding: 0;
+    margin: 0;
+}
+
+.why_aweInRwanda {
     display: grid;
-    grid-template-columns: 30rem 30rem 30rem;
-    /* grid-template-rows:45rem 45rem 45rem ; */
+    grid-template-columns: 60% 40%
 }
 
-.imagefromtraining {
-    border-style: solid;
-    margin-top: 20px;
-    margin-left: 70px;
-    grid-column: 1;
-    grid-row: 1;
-    max-width: 60%;
-    max-height: 50%;
-    margin-left: 20%;
-    /* border-radius: 50%; */
+.Studentpicture {
+    margin-top: 35px;
+    margin-left: 15%;
+    width: 90%;
+    height: 95%;
 }
 
-.student-awe {
-    margin-top: 50%;
-    grid-column: 1;
-    grid-row: 1;
-    color: #90be6d;
-    word-spacing: 1rem;
-    text-transform: uppercase;
-}
-
-.whatoexpect {
-    color: #028090;
-    text-align: center;
-    margin: 10%;
-    margin-top: 60%;
-    grid-column: 1;
-    grid-row: 1;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 200;
-}
-
-.imagefromtraining2 {
-    margin-top: 20px;
-    margin-left: 70px;
+.trainings {
+    border-style: double;
+    margin-top: 5%;
     grid-column: 2;
     grid-row: 1;
-    margin-left: 20%;
-    max-width: 60%;
-    max-height: 30%;
-}
-
-.student-awe2 {
-    margin-top: 50%;
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.student-awe2 h1 {
+    width: 70%;
     justify-content: center;
-    color: #90be6d;
-    margin-right: 180px;
+    margin-left: 15%;
 }
 
-.whatoexpect2 {
-    color: #028090;
+.trainings h1 {
     text-align: center;
-    margin: 10%;
-    margin-top: 60%;
+    color: black;
+}
+
+.trainings p {
+    text-align: center;
+    color: black;
+    padding: 3%;
+}
+
+.Coatching {
+    border-style: double;
+    margin-top: 8%;
     grid-column: 2;
     grid-row: 1;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 200;
+    width: 70%;
+    justify-content: center;
+    margin-left: 15%;
 }
 
-.whatoexpect2 p {
-    margin-top: 60px;
+.Coatching h1 {
+    text-align: center;
+    color: black;
+}
+
+.Coatching p {
+    text-align: center;
+    color: black;
+    padding: 3%;
+}
+
+.Mentorship {
+    border-style: double;
+    margin-top: 5%;
     grid-column: 2;
-    /* margin-right: 200px; */
-    color: lightcoral;
+    grid-row: 1;
+    width: 70%;
+    justify-content: center;
+    margin-left: 15%;
 }
 
-.imagefromtraining3 {
-    margin-top: 20px;
-    grid-column: 3;
-    grid-row: 1;
-    width: 60%;
-    margin-left: 70px;
-}
-
-.student-awe3 {
-    margin-top: 50%;
-    grid-column: 3;
-    grid-row: 1;
-    color: #90be6d;
-    margin-right: 20%;
-}
-
-.whatoexpect3 {
-    padding-top: 50%;
-    padding-right: 40px;
-    grid-column: 3;
-    grid-row: 1;
-    color: #028090;
+.Mentorship h1 {
     text-align: center;
-    margin: 12%;
-    font-size: 20px;
-    font-weight: 200;
+    color: black;
+}
+
+.Mentorship p {
+    text-align: center;
+    color: black;
+    padding: 3%;
 }
 
 .studenttestimony {
@@ -626,7 +591,7 @@ nav ul li:hover i {
     font-family: 'Times New Roman', Times, serif;
 }
 
-
+*/
 /* style for programs */
 
 .Programs {
