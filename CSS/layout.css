@@ -275,7 +275,8 @@ nav ul li:hover i {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     word-spacing: 0.5em;
-    font-weight: 200;
+    /* font-weight: 200; */
+    /* width: 90%; */
 }
 
 .progamawe h1 {
@@ -297,13 +298,13 @@ nav ul li:hover i {
 }
 
 .image1 {
-    width: 100%;
+    width: 0%;
     height: 100%;
     /* border-style: solid; */
 }
 
 .image2 {
-    width: 100%;
+    width: 0%;
     height: 100%;
     /* border-style: solid;
     */
@@ -317,6 +318,7 @@ nav ul li:hover i {
 }
 
 .AboutThisProgram h1 {
+    margin-top: 20%;
     color: #05668d;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 200;
