@@ -124,9 +124,9 @@ nav ul li:hover i {
 
 .carousel-item img {
     padding: 35px;
-    width: 55%;
+    width: 60%;
     height: 40%;
-    margin-left: 35%;
+    margin-left: 30%;
 }
 
 .carousel-caption {
@@ -138,24 +138,68 @@ nav ul li:hover i {
     line-height: 2rem;
 }
 
+.small1 {
+    padding: 0;
+    margin: 10%;
+}
+
+.small1 b {
+    font-family: 'Times New Roman', Times, serif;
+    color: #1d3557;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.5rem;
+    text-align: right;
+    white-space: 0.5rem;
+}
+
 .small b {
     font-family: 'Times New Roman', Times, serif;
-    color: #F4A261;
+    /* color: #1d3557; */
+    color: brown;
     width: 20%;
     left: 180px;
     top: 50px;
     font-weight: bold;
     font-size: 30px;
     line-height: 1.5rem;
-    text-align: center;
+    text-align: right;
     white-space: 0.5rem;
 }
 
-.small p {
-    font-size: 1rem;
-    color: red;
+.small2 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #1d3557;
+}
+
+.small2 p {
+    color: #1d3557;
     text-transform: lowercase;
-    line-height: 1.4rem;
+    line-height: 2rem;
+    font-size: 25px;
+    text-align: left;
+}
+
+.small2 span {
+    text-transform: capitalize;
+    /* font-size: 20px; */
+}
+
+.small1 p {
+    color: #1d3557;
+    text-transform: lowercase;
+    line-height: 2rem;
+    font-size: 25px;
+    word-spacing: 0.5rem;
+}
+
+.small p {
+    color: #1d3557;
+    text-transform: lowercase;
+    line-height: 2rem;
+    font-size: 25px;
 }
 
 .samll h3 {
@@ -412,16 +456,14 @@ nav ul li:hover i {
     font-size: 2rem;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* height:100%;
-     width:100% ; */
-    background-image: url(../images/awe2.jpg);
+    background-image: url(../images/impactimage.jpg);
     background-color: black;
     background-size: cover;
     background-position: center;
     position: relative;
     display: flex;
     background-size: cover;
-    height: 50vh;
+    height: 70vh;
     background-position: center;
     background-attachment: fixed;
 }
@@ -448,19 +490,32 @@ nav ul li:hover i {
 }
 
 .para {
-    margin-top: 15%;
-    background-color: #f4a261;
+    background-color: #fdfffc;
+    opacity: 0.5;
     align-items: center;
+    grid-column: 1;
+    margin-left: 3px;
+}
+
+.para h1 {
+    margin-top: 10%;
+    color: black;
+    margin-left: 30%;
+    font-size: 100px;
+    line-height: 1.8rem;
+    vertical-align: baseline;
+    word-spacing: inherit;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .impact3 {
-    margin: 0;
+    margin: 10%;
     padding: 0;
     border: 0;
     outline: 0;
     /* padding: 70px; */
     color: black;
-    text-align: center;
+    text-align: left;
     font-size: 25px;
     line-height: 1.8rem;
     vertical-align: baseline;
@@ -469,9 +524,9 @@ nav ul li:hover i {
 }
 
 .para3 {
-    margin-top: 15%;
+    /* border-style: solid; */
     margin-left: 0PX;
-    background-color: #007f5f;
+    background-color: #007f5f4d;
     justify-content: center;
 }
 
@@ -502,26 +557,25 @@ nav ul li:hover i {
     columns: 1;
 }
 
-.studenttestimony {
+.studenttestimony p {
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
     padding: 70px;
     color: black;
-    text-align: center;
+    text-align: right;
     font-size: 25px;
     line-height: 1.8rem;
     vertical-align: baseline;
-    word-spacing: inherit;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
 }
 
 .containercontent {
-    margin-top: 15%;
+    height: 30%vh;
+    border-style: solid;
+    margin-top: 45%;
     margin-left: 0PX;
-    justify-content: center;
+    /* justify-content: cente; */
 }
 
 .expectations {
@@ -631,24 +685,31 @@ nav ul li:hover i {
 */
 /* style for programs */
 
-.container-fluid {
-    margin-left: 15%;
-    color: olive;
-}
+.container-fluid {}
 
 .Programs {
-    margin-top: 5%;
+    border-style: solid;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     opacity: 0, 5;
-    text-align: center;
     background-size: cover;
     height: 50vh;
     background-position: center;
     background-attachment: fixed;
+}
+
+#more {
+    display: none;
+}
+
+.btn {
+    background-color: red;
+    border: none;
+    outline: none;
+    color: white;
 }
 
 .Programs h2 {
@@ -667,29 +728,35 @@ nav ul li:hover i {
     text-align: center;
     border-radius: 2px;
     display: inline-block;
-    height: 400px;
-    margin: 1.5em;
     position: relative;
     width: 350px;
+    height: 36vh;
+    margin: 1.5em;
     /* box-shadow: 0 0 10px; */
 }
 
-.card-1,
-.card-2,
+.card,
 .card-3 {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.986);
-    text-align: center;
+    color: rgba(255, 255);
+    text-align: left;
+    margin-left: 10%;
+    font-size: 19px;
 }
 
 .card p {
     margin-top: 30px;
-    /* text-align: */
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 
 .card h1 {
     padding-top: 10px;
+    color: white;
 }
 
 .card button {
@@ -850,7 +917,7 @@ h1 {
 h1 {
     margin-left: 30px;
     color: #293241;
-    font-size: 20px;
+    font-size: 23px;
     font-family: 'Roboto', sans-serif;
     word-spacing: 0.5rem;
 }
