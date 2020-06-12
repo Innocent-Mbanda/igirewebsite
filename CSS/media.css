@@ -1,280 +1,267 @@
-
 /* big tablets to 1200px */
-@media only screen and (max-width: 1200px) {
-  section{
-    width:auto;
-    height:auto;
-    color: green;
-  }
 
+@media only screen and (max-width: 1200px) {
+    section {
+        width: auto;
+        height: auto;
+        color: green;
+    }
     .card {
         width: 280px;
-        height: 500px;   
+        height: 500px;
     }
     .Programs {
-      width: 100%;
-      height:80vh;
-    
-  }
-  .story {
-   
-    height:100vh;
-  }
-}
-
-
-
- /*  small tablets to big tablet */
-@media only screen and (max-width: 1023px) {
-  section{
-    width:auto;
-    height:auto;
-    color:red;
-  }
-  nav ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding-left:10px;
-    margin-top: 10px;
-}
-  .card {
-    width:250px;
-    height: 530px;
-  }
-  .Programs {
-    height:200vh;
-  
-   }
-  .story {height:100vh; }
-  .partner {height: 350px;} 
-  #logo1,#logo2,#logo3,#logo4,#logo5,#logo6{
-    margin-left:80px;
-    margin-top: 10px;
-    } 
-    .images-container:after {
-    display: none;
-  }
-  /* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
-  /* Team page */
-  /* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
-
-  .about {
-    height: 350px;
-    padding-top: 100px;
-   
+        width: 100%;
+        height: 80vh;
     }
-
+    .story {
+        height: 100vh;
+    }
 }
 
-  
+
+/*  small tablets to big tablet */
+
+@media only screen and (max-width: 1023px) {
+    section {
+        width: auto;
+        height: auto;
+        color: red;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    .card {
+        width: 250px;
+        height: 530px;
+    }
+    .Programs {
+        height: 200vh;
+    }
+    .story {
+        height: 100vh;
+    }
+    .partner {
+        height: 350px;
+    }
+    #logo1,
+    #logo2,
+    #logo3,
+    #logo4,
+    #logo5,
+    #logo6 {
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    .images-container:after {
+        display: none;
+    }
+    /* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+    /* Team page */
+    /* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+    .about {
+        height: 350px;
+        padding-top: 100px;
+    }
+}
+
 
 /*  small phones to small tablets */
+
 @media only screen and (max-width: 767px) {
-    
-  section{
-    width:auto;
-    height:auto;
-    color:yellow;
-    
-     }
-     .card {
-      width:500px;
-      height: 320px;
-      /* background-color: teal; */
+    section {
+        width: auto;
+        height: auto;
+        color: yellow;
+    }
+    .card {
+        width: 500px;
+        height: 320px;
+        /* background-color: teal; */
     }
     .Programs {
-      width:auto;
-      height:220vh;
-    
-     }
-    .story {height:168vh; }
-    .carde img{
-    height:50px;
-    width:100px;
+        width: auto;
+        height: 220vh;
     }
-    .partner {height: 200px;} 
-    #logo1,#logo2,#logo3,#logo4,#logo5,#logo6{
-      margin-left:70px;
-      margin-top: 10px;
-      width:20px;
-      } 
-      .partner img{
-        width:80px;
-  
-      }paddingpadding
-    .col{
-      width: 300px;
+    .story {
+        height: 168vh;
     }
-    
+    .carde img {
+        height: 50px;
+        width: 100px;
+    }
+    .partner {
+        height: 200px;
+    }
+    #logo1,
+    #logo2,
+    #logo3,
+    #logo4,
+    #logo5,
+    #logo6 {
+        margin-left: 70px;
+        margin-top: 10px;
+        width: 20px;
+    }
+    .partner img {
+        width: 80px;
+    }
+    paddingpadding .col {
+        width: 300px;
+    }
     header {
-      display: block;
-      /* grid-template-columns: 1fr 4fr; */
-      /* padding: 1rem; */
-      background-color: white;
-      border-bottom: 1px solid teal;
-      border-bottom-width: thin;
-      /* height: 80px; */
-  }
-  
-  .Logo-image {
-      height: 50PX;
-      width: auto;
-      float: left;
-      /* margin-left: 80px; */
-  }
-  
-  .nav-link {
-      color: rgb(10, 37, 37);
-      font-size: 15px;
-      font-family: 'Roboto', sans-serif;
-  
-      
-  }
-  
-  
-  
-  .dropdown-item:hover {
-      color: teal
-  }
-  
-  nav ul {
-      display:block;
-      padding: 14px 16px;
-  }
-  .navbarDropdown_about{
-    margin-left: -20px;
-  }
-  
-  nav ul li {
-      list-style-type: none;
-      /* text-align: center; */
-      /* transition: all 500ms ease-in-out; */
-      cursor: pointer;
-      font-size: 1.5rem;
-      list-style: none;
-  }
-  .mobile-nav{
-    margin-top:5px;
-    display: inline-block;
-    float: right;
-
-  }
-  
-  li {
-      margin-left:0px;
-  }
-  
-  nav ul li a {
-      text-decoration: none;
-      font-size: 55%;
-  }
-  
-  
+        display: block;
+        /* grid-template-columns: 1fr 4fr; */
+        /* padding: 1rem; */
+        background-color: white;
+        border-bottom: 1px solid teal;
+        border-bottom-width: thin;
+        /* height: 80px; */
+    }
+    .Logo-image {
+        height: 50PX;
+        width: auto;
+        float: left;
+        /* margin-left: 80px; */
+    }
+    .nav-link {
+        color: rgb(10, 37, 37);
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .dropdown-item:hover {
+        color: teal
+    }
+    nav ul {
+        display: block;
+        padding: 14px 16px;
+    }
+    .navbarDropdown_about {
+        margin-left: -20px;
+    }
+    nav ul li {
+        list-style-type: none;
+        /* text-align: center; */
+        /* transition: all 500ms ease-in-out; */
+        cursor: pointer;
+        font-size: 1.5rem;
+        list-style: none;
+    }
+    .mobile-nav {
+        margin-top: 5px;
+        display: inline-block;
+        float: right;
+    }
+    li {
+        margin-left: 0px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        font-size: 55%;
+    }
     /* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
-  /* Team page */
-  /* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
-
-  .about {
-    height: 350px;
-    padding-top:-210px;
-  }
-   #menu{
-     margin-top:40px;
-
-   }
-   
-    
+    /* Team page */
+    /* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+    .about {
+        height: 350px;
+        padding-top: -210px;
+    }
+    #menu {
+        margin-top: 40px;
+    }
     .us {
-    margin-top: -80px;
-     
-  }
+        margin-top: -80px;
+    }
     #triangle {
-      margin-top:5px;
-      width: 100px;
-      /* height: 50px; */
-      border-top: 100px solid rgb(16, 70, 70);
-      border-right: 100px solid transparent;
-      float: left;
-      margin-left: -15px;
-  }
-  
-  #triangle2 {
-      margin-top: 10px;
-      width: 100px;
-      height: 0;
-      border-top: 200px solid orange;
-      border-left: 200px solid transparent;
-      float: right;
-  }
-  
-  .team {
-    /* content: ""; */
-    /* position:absolute; */
-    /* margin:-20px; */
-    /* width:40px; */
-    /* height:40px; */
-    background-color: #F7F7FA;
-    height: 2000px;
-    border-bottom-left-radius: 20%;
-    border-top-right-radius: 20%;
-    /* box-shadow: 0 0 0 250px #522d5b; */
+        margin-top: 5px;
+        width: 100px;
+        /* height: 50px; */
+        border-top: 100px solid rgb(16, 70, 70);
+        border-right: 100px solid transparent;
+        float: left;
+        margin-left: -15px;
+    }
+    #triangle2 {
+        margin-top: 10px;
+        width: 100px;
+        height: 0;
+        border-top: 200px solid orange;
+        border-left: 200px solid transparent;
+        float: right;
+    }
+    .team {
+        /* content: ""; */
+        /* position:absolute; */
+        /* margin:-20px; */
+        /* width:40px; */
+        /* height:40px; */
+        background-color: #F7F7FA;
+        height: 2000px;
+        border-bottom-left-radius: 20%;
+        border-top-right-radius: 20%;
+        /* box-shadow: 0 0 0 250px #522d5b; */
+    }
 }
 
-    
-  }
-  
- 
- /* Extra small phones o to 480px */
+
+/* Extra small phones o to 480px */
+
 @media only screen and (max-width: 480px) {
-  body{
-    width: 100%;
-  }
-
-  section{
-  padding:3px 0;
-    color: teal;
-  }
-  .row{
-    padding:2%;
-  }
-  nav ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding-left:10px;
-    margin-top: 10px;
-}
-  .card {
-    width:300px;
-    height: 400px;
-    /* background-color: teal; */
-  }
-  .Programs {
-    width:auto;
-    height:180vh;
-  
-   }
-  .story {height:170vh; }
-  .carde img{
-    height:50px;
-    width:100px;
-  }
-
-  .carde{height: 300px;}
-
-
-  .partner {height: 200px;} 
-  #logo1,#logo2,#logo3,#logo4,#logo5,#logo6{
-    margin-left:70px;
-    margin-top: 10px;
-    width:20px;
-    } 
-    .partner img{
-      width: 80px;
-
+    body {
+        width: 100%;
+    }
+    section {
+        padding: 3px 0;
+        color: teal;
+    }
+    .row {
+        padding: 2%;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    .card {
+        width: 300px;
+        height: 400px;
+        /* background-color: teal; */
+    }
+    .Programs {
+        width: auto;
+        height: 180vh;
+    }
+    .story {
+        height: 170vh;
+    }
+    .carde img {
+        height: 50px;
+        width: 100px;
+    }
+    .carde {
+        height: 300px;
+    }
+    .partner {
+        height: 200px;
+    }
+    #logo1,
+    #logo2,
+    #logo3,
+    #logo4,
+    #logo5,
+    #logo6 {
+        margin-left: 70px;
+        margin-top: 10px;
+        width: 20px;
+    }
+    .partner img {
+        width: 80px;
     }
     .images-container:after {
-    display: none;
-  }
-  
-
+        display: none;
+    }
 }
