@@ -1,6 +1,8 @@
-html {
+
+html,body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 * {
@@ -14,16 +16,20 @@ html {
     background-color:rgba(245, 245, 245, 0.993);
 } */
 
-
-/*headers*/
-
+.mobile-nav{
+    display:none;
+}
+#menu{
+    display: none;
+}
+/*headers*/ 
 .contact ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(16, 70, 70);
-}
+        }
 
 .contact li {
     float: left;
@@ -46,13 +52,16 @@ html {
     background-color: teal;
 }
 
-header {
+
+
+    header {
     display: grid;
     /* grid-template-columns: 1fr 4fr; */
     /* padding: 1rem; */
     background-color: white;
     border-bottom: 1px solid teal;
     border-bottom-width: thin;
+    /* height: 80px; */
 }
 
 .Logo-image {
@@ -107,8 +116,9 @@ nav ul li a i {
 }
 
 nav ul li:hover {
-    border: 10px solid #2589bd;
-    background-color: #e7e1e1;
+    /* border: 10px solid #2589bd; */
+    /* background-color: #e7e1e1; */
+    color: teal;
 }
 
 a:hover {
@@ -118,7 +128,12 @@ a:hover {
 nav ul li:hover i {
     color: yellowgreen;
 }
-
+.header{
+    display:none;
+}
+.toggle{
+    display:none;
+}
 
 /* SLIDING IMAGES */
 
@@ -218,8 +233,6 @@ nav ul li:hover i {
     /* or 100px */
     border-bottom: 1px solid orange;
 }
-
-
 /* AWE STARTS HeaderHERE */
 
 .rwanda {
@@ -643,12 +656,10 @@ nav ul li:hover i {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    opacity: 0, 5;
+    /* opacity: 0, 5; */
     text-align: center;
-    background-size: cover;
-    height: 50vh;
-    background-position: center;
-    background-attachment: fixed;
+    height:80vh;
+  
 }
 
 .Programs h2 {
@@ -720,9 +731,8 @@ nav ul li:hover i {
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1rem;
-    height: 600px;
     background-size: cover;
-    height: 50vh;
+    height: 90vh;
     background-position: center;
     background-attachment: fixed;
 }
