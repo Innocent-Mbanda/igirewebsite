@@ -1,4 +1,4 @@
-// Script from W3 Schools  
+
   // When the user scrolls down 20px from the top of the document, show the button
 
 
@@ -20,12 +20,30 @@
   }
     
 
-// ...................TWITTER......................
+// ...................mobile nav......................
+function myFunction() {
+  var x = document.getElementById("menu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 
 
+// ...................jquery function....................................
 
-
-
+$(function() {
+  $(".toggle").on("click", function() {
+      if ($(".nav-item").hasClass("active")) {
+          $(".nav-item").removeClass("active");
+          $(this).find("a").html("<i class='fas fa-bars'></i>");
+      } else {
+          $(".nav-item").addClass("active");
+          $(this).find("a").html("<i class='fas fa-times'></i>");
+      }
+  });
+});
 
 
   $(document).ready(function() {

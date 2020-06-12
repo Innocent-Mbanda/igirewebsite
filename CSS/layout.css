@@ -1,6 +1,8 @@
-html {
+html,
+body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 * {
@@ -13,6 +15,14 @@ html {
 /* body{
     background-color:rgba(245, 245, 245, 0.993);
 } */
+
+.mobile-nav {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
 
 
 /*headers*/
@@ -53,6 +63,7 @@ header {
     background-color: white;
     border-bottom: 1px solid teal;
     border-bottom-width: thin;
+    /* height: 80px; */
 }
 
 .Logo-image {
@@ -107,8 +118,9 @@ nav ul li a i {
 }
 
 nav ul li:hover {
-    border: 10px solid #2589bd;
-    background-color: #e7e1e1;
+    /* border: 10px solid #2589bd; */
+    /* background-color: #e7e1e1; */
+    color: teal;
 }
 
 a:hover {
@@ -117,6 +129,14 @@ a:hover {
 
 nav ul li:hover i {
     color: yellowgreen;
+}
+
+.header {
+    display: none;
+}
+
+.toggle {
+    display: none;
 }
 
 
@@ -817,9 +837,8 @@ nav ul li:hover i {
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1rem;
-    height: 600px;
     background-size: cover;
-    height: 50vh;
+    height: 90vh;
     background-position: center;
     background-attachment: fixed;
 }
