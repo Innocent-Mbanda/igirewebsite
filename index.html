@@ -26,71 +26,80 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="CSS/style.css">
+
     <link rel="stylesheet" href="CSS/layout.css">
     <link rel="stylesheet" href="./js/app.js">
 
 
 </head>
+<code></code>
 
 <body>
-    <div class="container-fluid2">
-        <div class="contact">
-            <ul>
-                <li><a class="active" href="#"><i class="fa fa-phone">need support?078234567</i></a></li>
 
-                <li><a href="#"><i class="fa fa-envelope"></i> info@themevessel.com</a></li>
-                <i class="fa fa-phone" style="font-size:15px;margin-left:520px;color:whitesmoke;margin-top:20px;"></i>
-                <i class="fa fa-facebook" style="font-size:15px;margin-left:10px;color:whitesmoke"></i>
-                <i class="fa fa-google" style="font-size:15px;margin-left:10px;color:whitesmoke"></i>
-                <i class="fa fa-linkedin" style="font-size:15px;margin-left:10px;color:whitesmoke"></i>
-                <i class="fa fa-twitter" style="font-size:15px;margin-left:10px;color:whitesmoke"></i>
-
-
-
-
-                <li style="float:right;padding-right:60px;"><a href="#" style="text-transform: uppercase;  font-family: 'Roboto', sans-serif;">Donate</a></li>
-
-            </ul>
-        </div>
-    </div>
 
     <header>
+        <div class="container-fluid2">
+            <div class="contact">
+                <ul>
+                    <li><a class="active" href="#"><i class="fa fa-phone">need support?078234567</i></a></li>
 
-        <nav>
+                    <li><a href="#"><i class="fa fa-envelope"></i> info@themevessel.com</a></li>
+                    <i class="fa fa-phone" style="font-size:15px;margin-left:500px;color:whitesmoke;margin-top:20px;"></i>
+                    <i class="fa fa-facebook" style="font-size:15px;margin-left:10px;color:whitesmoke"></i>
+                    <i class="fa fa-google" style="font-size:15px;margin-left:10px;color:whitesmoke"></i>
+                    <i class="fa fa-linkedin" style="font-size:15px;margin-left:10px;color:whitesmoke"></i>
+                    <i class="fa fa-twitter" style="font-size:15px;margin-left:10px;color:whitesmoke"></i>
+
+
+
+
+                    <li style="float:right;"><a href="#" style="text-transform: uppercase;  font-family: 'Roboto', sans-serif;">Donate</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <nav class="sticky">
             <a href="index.html">
                 <img class="Logo-image" src="images/igire logo.png" alt="" width="50">
             </a>
             <ul>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ABOUT 
-                  </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="team.html">Team</a>
-                        <a class="dropdown-item" href="#">Misson & Vision</a>
-                        <!-- <div class="dropdown-divider"></div> -->
+                <li class="mobile-nav">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
 
-                    </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </a>
+                <div id="menu">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ABOUT </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="team.html">Team</a>
+                            <a class="dropdown-item" href="#">Misson & Vision</a>
+                            <!-- <div class="dropdown-divider"></div> -->
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     PROJECTS
-                  </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="http://www.shecancodeschool.org/" TARGET="_blank">Shecancode</a>
-                        <a class="dropdown-item" href="awe.html">AWE</a>
-                        <!-- <div class="dropdown-divider"></div> -->
-                        <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                     </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="http://www.shecancodeschool.org/" TARGET="_blank">Shecancode</a>
+                            <a class="dropdown-item" href="awe.html">AWE</a>
+                            <!-- <div class="dropdown-divider"></div> -->
+                            <!-- <a class="dropdown-item" href="#">Something else here</a> -->
 
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Impact.html">IMPACT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">CONTACT</a>
-                </li>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Impact.html">IMPACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </div>
+
             </ul>
         </nav>
     </header>
@@ -161,24 +170,24 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-sm-1">
+                <div class="col-lg-1">
                     <span>
-                  <i class="fa fa-globe" style="margin-left:20px;font-size:50px;border-radius:50%;margin-top:50px;background-image:linear-gradient(orange,teal);"></i>
+                  <i class="fa fa-globe" style="margin-left:5px;font-size:50px;border-radius:50%;margin-top:50px;background-image:linear-gradient(orange,teal);"></i>
                    <!-- <img src="images/mission.png" style="margin-left:20px;width:80px;margin-top:50px;color:red;"> -->
                   </div> 
                   </span>
-                    <div class="col-sm-5">
+                    <div class="col-lg-5">
                         <h1 class="mission">Mission </h1>
                         <p>Igire Rwanda Organization's mission is to connect youth and women in Rwanda with opportunities and skills to transform their lives.
                         </p>
 
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-lg-1">
                         <span>
                   <i class="fa fa-low-vision"style="margin-left:20px;font-size:40px;border-radius:50%;margin-top:50px;;background-image:linear-gradient(orange,teal);"></i>
                   </span>
                     </div>
-                    <div class="col-sm-5">
+                    <div class="col-lg-5">
                         <h1 class="mission">vision </h1>
                         <p>Igire Rwanda Organization's vision is to inspire and support youth and women to build the future they want.
                         </p>
@@ -192,6 +201,7 @@
     <section class="Programs">
         <h2>igire rwanda programs</h2>
         <div class="container-fluid">
+
             <div class="card">
 
                 <h1> <i class="fa fa-code" style="color:teal"></i>Academy of Women Enterprneusrship</h1>
@@ -215,13 +225,7 @@
                 </p>
 
             </div>
-            <!-- <div class="card card-3">
-                        <h1>program</h1> 
-                        <P2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap into electronic typesetting, remaining essentially unchanged</P2>
-                    </div> -->
+
 
         </div>
     </section>
@@ -296,12 +300,12 @@
         <div class="container">
             <h2>Partners</h2>
             <div class="row">
-                <div class="col-sm-2"><img src="images/logo2.jpg" class="img-responsive" width=150></div>
-                <div class="col-sm-2"><img src="images/logo2.jpg" class="img-responsive" width=150></div>
-                <div class="col-sm-2"><img src="images/logo2.jpg" class="img-responsive" width=150></div>
-                <div class="col-sm-2"><img src="images/logo2.jpg" class="img-responsive" width=150></div>
-                <div class="col-sm-2"><img src="images/logo2.jpg" class="img-responsive" width=150></div>
-                <div class="col-sm-2"><img src="images/logo2.jpg" class="img-responsive" width=150></div>
+                <div class="col-sm-2" id="logo1"><img src="images/logo2.jpg" class="img-responsive" width=150></div>
+                <div class="col-sm-2" id="logo2"><img src="images/logo2.jpg" class="img-responsive" width=150></div>
+                <div class="col-sm-2" id="logo3"><img src="images/logo2.jpg" class="img-responsive" width=150></div>
+                <div class="col-sm-2" id="logo4"><img src="images/logo2.jpg" class="img-responsive" width=150></div>
+                <div class="col-sm-2" id="logo5"><img src="images/logo2.jpg" class="img-responsive" width=150></div>
+                <div class="col-sm-2" id="logo6"><img src="images/logo2.jpg" class="img-responsive" width=150></div>
             </div>
         </div>
 
