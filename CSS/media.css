@@ -4,19 +4,15 @@
     section {
         width: auto;
         height: auto;
-        color: green;
+        /* color: green; */
     }
-    .card {
-        width: 280px;
-        height: 500px;
-    }
+    
     .Programs {
         width: 100%;
-        height: 80vh;
+      
     }
-    .story {
-        height: 100vh;
-    }
+    
+
 }
 
 
@@ -26,7 +22,7 @@
     section {
         width: auto;
         height: auto;
-        color: red;
+        /* color: red; */
     }
     nav ul {
         display: grid;
@@ -34,19 +30,7 @@
         padding-left: 10px;
         margin-top: 10px;
     }
-    .card {
-        width: 250px;
-        height: 530px;
-    }
-    .Programs {
-        height: 200vh;
-    }
-    .story {
-        height: 100vh;
-    }
-    .partner {
-        height: 350px;
-    }
+    
     #logo1,
     #logo2,
     #logo3,
@@ -63,7 +47,7 @@
     /* Team page */
     /* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
     .about {
-        height: 350px;
+        /* height: 350px; */
         padding-top: 100px;
     }
 }
@@ -75,27 +59,16 @@
     section {
         width: auto;
         height: auto;
-        color: yellow;
+        /* color: yellow; */
     }
-    .card {
-        width: 500px;
-        height: 320px;
-        /* background-color: teal; */
-    }
-    .Programs {
-        width: auto;
-        height: 220vh;
-    }
-    .story {
-        height: 168vh;
-    }
+    
+  
+    
     .carde img {
         height: 50px;
         width: 100px;
     }
-    .partner {
-        height: 200px;
-    }
+    
     #logo1,
     #logo2,
     #logo3,
@@ -166,7 +139,7 @@
     /* Team page */
     /* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
     .about {
-        height: 350px;
+        /* height: 350px; */
         padding-top: -210px;
     }
     #menu {
@@ -199,7 +172,7 @@
         /* width:40px; */
         /* height:40px; */
         background-color: #F7F7FA;
-        height: 2000px;
+        /* height: 2000px; */
         border-bottom-left-radius: 20%;
         border-top-right-radius: 20%;
         /* box-shadow: 0 0 0 250px #522d5b; */
@@ -215,7 +188,7 @@
     }
     section {
         padding: 3px 0;
-        color: teal;
+        /* color: teal; */
     }
     .row {
         padding: 2%;
@@ -226,42 +199,6 @@
         padding-left: 10px;
         margin-top: 10px;
     }
-    .card {
-        width: 300px;
-        height: 400px;
-        /* background-color: teal; */
-    }
-    .Programs {
-        width: auto;
-        height: 180vh;
-    }
-    .story {
-        height: 170vh;
-    }
-    .carde img {
-        height: 50px;
-        width: 100px;
-    }
-    .carde {
-        height: 300px;
-    }
-    .partner {
-        height: 200px;
-    }
-    #logo1,
-    #logo2,
-    #logo3,
-    #logo4,
-    #logo5,
-    #logo6 {
-        margin-left: 70px;
-        margin-top: 10px;
-        width: 20px;
-    }
-    .partner img {
-        width: 80px;
-    }
-    .images-container:after {
-        display: none;
-    }
+    
+  
 }

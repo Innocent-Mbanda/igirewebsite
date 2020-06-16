@@ -20,10 +20,7 @@ body {
     display: none;
 }
 
-#menu {
-    display: none;
-    display: ;
-}
+
 
 
 /*headers*/
@@ -229,9 +226,9 @@ nav ul li:hover i {
 
 .carousel-control-prev,
 .carousel-control-next {
-    width: 50px;
-    height: 50px;
-    background-color: black;
+    width: 20px;
+    height: 20px;
+    background-color:rgb(16, 70, 70);
     border-radius: 3%;
     top: calc(50%);
 }
@@ -245,20 +242,6 @@ nav ul li:hover i {
 }
 
 
-/* .images-container {
-    position: relative;
-    height: 800px;
-} */
-
-.images-container:after {
-    content: "";
-    position: absolute;
-    bottom: -50px;
-    margin-left: 10%;
-    height: 1px;
-    width: 30%;
-    border-bottom: 1px solid orange;
-}
 
 .images-container {
     border-style: double;
@@ -273,16 +256,16 @@ nav ul li:hover i {
     width: 100%;
 }
 
-.images-container:after {
+/* .images-container:after {
     content: "";
     position: absolute;
     bottom: -50px;
     left: 400px;
     height: 1px;
     width: 40%;
-    /* or 100px */
+
     border-bottom: 1px solid orange;
-}
+} */
 
 
 /* AWE STARTS HeaderHERE */
@@ -735,73 +718,65 @@ nav ul li:hover i {
 
 */
 /* style for programs */
+#more {
+    display: none;
+}
 
-.container-fluid {}
 
 .Programs {
+    margin-top: 100px;
     border-style: solid;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    <<<<<<< HEAD opacity: 0, 5;
-    background-size: cover;
-    height: 50vh;
-    background-position: center;
-    background-attachment: fixed;
-    =======/* opacity: 0, 5; */
+    opacity: 0, 5;
     text-align: center;
-    height: 80vh;
-    >>>>>>>75539401e298d5fb4b0a50bf53585bb9d970daa2
+  
+    color:white;
 }
 
 #more {
     display: none;
 }
 
-.btn {
-    background-color: red;
+.btn-success{
+    background-color:rgb(16, 70, 70);
     border: none;
-    outline: none;
+    padding: 11px 26px;
+    /* outline: none; */
     color: white;
+    margin-bottom:10px;
 }
 
-.Programs h2 {
+.Programs h2  {
     text-transform: capitalize;
     font-weight: bold;
-    font-size: 40px;
-    color: #f1faee;
+    font-size: 30px;
+    color:white;
+    margin-top: 20px;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
 
-.card {
+.card2,.card1,.card3{
+   
+    color: rgb(252, 247, 247);
+    font-size: 19px;
+    box-shadow: 0 0 10px black;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
+    /* margin-left:1px; */
+
+}
+.programs{
     background: black;
     opacity: 0.4;
-    color: white;
-    text-align: center;
-    border-radius: 2px;
-    display: inline-block;
-    position: relative;
-    width: 350px;
-    height: 36vh;
-    margin: 1.5em;
-    /* box-shadow: 0 0 10px; */
 }
 
-.card,
-.card-3 {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    font-weight: bold;
-    color: rgba(255, 255);
-    text-align: left;
-    margin-left: 10%;
-    font-size: 19px;
-}
-
-.card p {
+.Programs p {
     margin-top: 30px;
     color: white;
     font-size: 20px;
@@ -809,9 +784,16 @@ nav ul li:hover i {
     text-align: justify;
 }
 
-.card h1 {
-    padding-top: 10px;
-    color: white;
+.Programs h1 {
+    padding-top:25px;
+    color:white;
+
+    text-transform: capitalize;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
 }
 
 .card button {
@@ -821,31 +803,20 @@ nav ul li:hover i {
 }
 
 
-/* .card-1 {
-     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  }
-  
-  
-  .card-2 {
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  }
-  
-  .card-3 {
-      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  } */
-
 
 /* style for stories */
 
 .story {
-    background-image: url("https://images.unsplash.com/photo-1510674485131-dc88d96369b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=301&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1510674485131-dc88d96369b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=301&q=80");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 1rem;
-    background-size: cover;
-    height: 90vh;
-    background-position: center;
-    background-attachment: fixed;
+    opacity: 5rem; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    background-color: #e9e9f0;
+    padding-bottom: 5%;
+
 }
 
 .card-img-top {
@@ -928,16 +899,19 @@ nav ul li:hover i {
 
 /* style for partner */
 
-.partner {
+.partner h1 {
     background-color: white;
-    color: black;
-    height: 300px;
-    padding-top: 50px;
-    text-align: center;
-    font-size: 35px;
-    text-transform: capitalize;
-    font-family: "Roboto", sans-serif;
-}
+   
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        font-weight: bold;
+        font-size: 35px;
+        color: rgb(10, 37, 37);
+        text-transform: capitalize;
+        font-family: "Roboto", sans-serif;
+    }
+
 
 
 /* mission&vision style */
@@ -947,6 +921,7 @@ nav ul li:hover i {
     line-height: 145%;
     text-align: center;
     margin-top: 20px;
+    padding-bottom:150px;
     text-align: center;
     color: rgb(10, 37, 37);
     float: right;
@@ -955,23 +930,19 @@ nav ul li:hover i {
 
 .missions-vission {
     margin-top: 70px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Times New Roman", Times, serif;
+
     line-height: 145%;
     padding-left: 140px;
+    
 }
-
-
-/* .missions-vission p,
-h1 {
-    margin-left: 30px;
-} */
 
 .missions-vission p,
 h1 {
     margin-left: 30px;
     color: #293241;
     font-size: 23px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     word-spacing: 0.5rem;
 }
 
@@ -1212,8 +1183,6 @@ h1 {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: inset 0 0 100% #6db3f2;
-    height: 1000px;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1222,21 +1191,24 @@ h1 {
 
 .color {
     background-color: rgb(10, 37, 37);
-    opacity: 0.6;
+    opacity: 0.7;
     height: 500px;
 }
 
 .contactus h2 {
-    padding-top: 50px;
+    padding-top:80px;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 50px;
 }
 
 .color p {
-    margin-top: 50px;
+    margin-top:40px;
     width: 1200px;
     padding-left: 200px;
+    color:white;
+    word-spacing:5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 input[type="text"],
@@ -1266,19 +1238,28 @@ input[type="submit"]:hover {
 }
 
 .phone {
-    background-color: rgb(16, 70, 70);
-    opacity: 0.1;
-    color: whitesmoke;
+    background-color:black;
+    opacity: 0.7;
+    word-spacing: normal;
+
+}
+.phone h3{
+    padding-top:40px;
+    
+}
+.phone,p,h3{
+    color:white;
 }
 
 .form {
     /* margin-top: 100px; */
-    border-radius: 5px;
+    border-radius-left: 35px;
     background-color: #f7f7fa;
-    padding: 20px;
+    /* padding: 20px; */
     /* width: 300px; */
-    height: 450px;
-    box-shadow: 0 0 10px;
+    bottom:0;
+    height: 500px;
+    /* box-shadow: 0 0 10px; */
 }
 
 
