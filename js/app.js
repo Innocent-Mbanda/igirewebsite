@@ -1,5 +1,8 @@
+
+
+// ...........................function for read more button on programms..........
 let i =0;
-function read(){
+function myFunction(){
     if(!i){
       document.getElementById("more").style.display="inline"; 
 
@@ -21,18 +24,54 @@ function read(){
     }
   
 }
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
+let s=0;
+function myRead(){
+    if(!s){
+      document.getElementById("morete").style.display="inline"; 
+
+      document.getElementById("dote").style.display="none"; 
+
+      document.getElementById("reade").innerHTML = "Read less";
+
+      s=1;
+
+    }
+    else{
+        document.getElementById("morete").style.display="none"; 
+
+        document.getElementById("dote").style.display="inline"; 
+  
+        document.getElementById("reade").innerHTML = "Read more";
+  
+      s=0; 
+    }
+  
 }
+let j=0;
+function myReadu(){
+    if(!j){
+      document.getElementById("moru").style.display="inline"; 
+
+      document.getElementById("dotu").style.display="none"; 
+
+      document.getElementById("readu").innerHTML = "Read less";
+
+      j=1;
+
+    }
+    else{
+        document.getElementById("moru").style.display="none"; 
+
+        document.getElementById("dotu").style.display="inline"; 
+  
+        document.getElementById("readu").innerHTML = "Read more";
+  
+      j=0; 
+    }
+  
+}
+
+
+
+
