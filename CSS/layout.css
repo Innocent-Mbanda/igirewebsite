@@ -21,8 +21,6 @@ body {
 }
 
 
-
-
 /*headers*/
 
 .contact ul {
@@ -60,12 +58,12 @@ header {
     /* padding: 1rem; */
     background-color: white;
     border-bottom: 1px solid teal;
-    border-bottom-width:2px;
+    border-bottom-width: 2px;
     /* height: 80px; */
 }
 
 .Logo-image {
-    height:90px;
+    height: 90px;
     width: auto;
     float: left;
     margin-left: 80px;
@@ -141,12 +139,12 @@ nav ul li:hover i {
 /* SLIDING IMAGES */
 
 .carousel-item img {
-    padding-left:20px;
-    padding-top:15px;
-    padding-right:10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 10px;
     width: 54%;
     height: 100%;
-    margin-left:40%;
+    margin-left: 40%;
 }
 
 .carousel-caption {
@@ -158,12 +156,11 @@ nav ul li:hover i {
     line-height: 2rem;
 }
 
-
 .small1 {
     padding: 0;
     /* margin: 10%; */
     font-family: "Roboto", sans-serif;
-    color:red;
+    color: red;
     /* font-weight: bold; */
     font-weight: 700;
     font-size: 160px;
@@ -212,7 +209,6 @@ nav ul li:hover i {
     line-height: 3rem;
     text-align: left;
     font-family: "Roboto", sans-serif;
-
 }
 
 .small2 span {
@@ -220,14 +216,13 @@ nav ul li:hover i {
     /* font-size: 20px; */
 }
 
-
 .small1 p {
     color: #1d3557;
     /* text-transform: lowercase; */
-    line-height:3rem;
+    line-height: 3rem;
     text-align: left;
     font-size: 30px;
-    word-spacing:1rem;
+    word-spacing: 1rem;
 }
 
 .small p {
@@ -245,7 +240,7 @@ nav ul li:hover i {
 .carousel-control-next {
     width: 20px;
     height: 20px;
-    background-color:rgb(16, 70, 70);
+    background-color: rgb(16, 70, 70);
     border-radius: 3%;
     top: calc(50%);
 }
@@ -258,11 +253,9 @@ nav ul li:hover i {
     right: 2%;
 }
 
-
-
 .images-container {
     border-style: double;
-    padding-bottom:5px;
+    padding-bottom: 5px;
     position: relative;
     /* font-family: 'Tinos', serif; */
     height: 100%;
@@ -274,15 +267,16 @@ nav ul li:hover i {
     height: 100%;
     width: 100%;
 }
-.carousel-item  button{
-    color:rgb(10, 37, 37)
-  
+
+.carousel-item button {
+    color: rgb(10, 37, 37)
 }
-.carousel-item button:hover{
-    color:black;
+
+.carousel-item button:hover {
+    color: black;
     background-color: white;
-  
 }
+
 
 /* .images-container:after {
     content: "";
@@ -746,14 +740,17 @@ nav ul li:hover i {
 
 */
 /* style for programs */
+
 #more {
     display: none;
 }
-#morete{
-    display:none;
+
+#morete {
+    display: none;
 }
-#moru{
-    display:none;
+
+#moru {
+    display: none;
 }
 
 .Programs {
@@ -766,49 +763,48 @@ nav ul li:hover i {
     background-attachment: fixed;
     opacity: 0, 5;
     text-align: center;
-  
-    color:white;
+    color: white;
 }
 
 #more {
     display: none;
 }
-.program .btn-outline-secondary{
-    background-color:rgb(16, 70, 70);
+
+.program .btn-outline-secondary {
+    background-color: rgb(16, 70, 70);
     padding: 11px 26px;
     color: white;
-    margin-bottom:40px;
+    margin-bottom: 40px;
     margin-top: 20px;
-
 }
-.program .btn-outline-secondary:hover{
-    background-color:transparent;
+
+.program .btn-outline-secondary:hover {
+    background-color: transparent;
     color: white;
 }
 
-
-.Programs h2  {
+.Programs h2 {
     text-transform: capitalize;
     font-weight: bold;
     font-size: 24px;
-    color:white;
+    color: white;
     margin-top: 20px;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
 
-.card2,.card1,.card3{
-   
+.card2,
+.card1,
+.card3 {
     color: rgb(252, 247, 247);
     font-size: 19px;
     box-shadow: 0 0 10px black;
     margin-top: 30px;
     margin-bottom: 50px;
-   
     /* margin-left:1px; */
-
 }
-.programs{
+
+.programs {
     background: black;
     opacity: 0.4;
 }
@@ -822,9 +818,8 @@ nav ul li:hover i {
 }
 
 .Programs h1 {
-    padding-top:25px;
-    color:white;
-
+    padding-top: 25px;
+    color: white;
     text-transform: capitalize;
     text-align: justify;
     font-family: "Roboto", sans-serif;
@@ -852,7 +847,6 @@ nav ul li:hover i {
     /* background-attachment: fixed; */
     background-color: #e9e9f0;
     padding-bottom: 5%;
-
 }
 
 .card-img-top {
@@ -882,8 +876,9 @@ nav ul li:hover i {
     width: 100%;
     height: 100%;
 }
-.card-body p{
-    color:black;
+
+.card-body p {
+    color: black;
 }
 
 .story h1 {
@@ -936,22 +931,19 @@ nav ul li:hover i {
 }
 
 
-
 /* style for partner */
 
 .partner h1 {
     background-color: white;
-   
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 40px;
-        font-weight: bold;
-        font-size: 35px;
-        color: rgb(10, 37, 37);
-        text-transform: capitalize;
-        font-family: "Roboto", sans-serif;
-    }
-
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(10, 37, 37);
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+}
 
 
 /* mission&vision style */
@@ -961,7 +953,7 @@ nav ul li:hover i {
     line-height: 145%;
     text-align: center;
     margin-top: 20px;
-    padding-bottom:150px;
+    padding-bottom: 150px;
     text-align: center;
     color: rgb(10, 37, 37);
     float: right;
@@ -971,20 +963,17 @@ nav ul li:hover i {
 .missions-vission {
     margin-top: 70px;
     font-family: 'Open Sans', sans-serif;
-
     line-height: 145%;
     padding-left: 140px;
-    
 }
 
 .missions-vission p {
     /* margin-left: 10px; */
     color: black;
-    font-size:22px;
+    font-size: 22px;
     font-family: 'Tinos', serif;
     word-spacing: 0.5rem;
     line-height: 145%;
-
 }
 
 .missions-vission h1 {
@@ -994,7 +983,6 @@ nav ul li:hover i {
     font-size: 35px;
     color: rgb(10, 37, 37);
     text-transform: capitalize;
-   
 }
 
 
@@ -1037,8 +1025,6 @@ nav ul li:hover i {
     width: 700px;
     text-align: center;
 }
-
-
 
 .about {
     height: 250px;
@@ -1087,7 +1073,6 @@ nav ul li:hover i {
     font-size: 35px;
     color: rgb(10, 37, 37);
     text-transform: capitalize;
-
 }
 
 .us {
@@ -1209,7 +1194,7 @@ nav ul li:hover i {
     display: none;
     font-size: 20px;
     font-family: 'Tinos', serif;
-    color:black;
+    color: black;
     text-align: center;
     line-height: 1.5em;
 }
@@ -1235,18 +1220,18 @@ nav ul li:hover i {
 }
 
 .contactus h2 {
-    padding-top:80px;
+    padding-top: 80px;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 50px;
 }
 
 .color p {
-    margin-top:40px;
+    margin-top: 40px;
     width: 1200px;
     padding-left: 200px;
-    color:white;
-    word-spacing:5px;
+    color: white;
+    word-spacing: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -1275,31 +1260,32 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: darkorange;
 }
+
 .phone:after {
     content: "";
     position: absolute;
-    bottom:400px;
-    margin-left:-120px;
+    bottom: 400px;
+    margin-left: -120px;
     /* left: 400px; */
     height: 1px;
-    width:35%;
-
+    width: 35%;
     border-bottom: 1px solid orange;
 }
 
 .phone {
-    background-color:black;
+    background-color: black;
     opacity: 0.7;
     word-spacing: normal;
+}
 
+.phone h3 {
+    padding-top: 40px;
 }
-.phone h3{
-    padding-top:40px;
-    
-}
-.phone,p{
-    color:white;
-    margin-top:20px;
+
+.phone,
+p {
+    color: white;
+    margin-top: 20px;
 }
 
 .form {
@@ -1308,7 +1294,7 @@ input[type="submit"]:hover {
     background-color: #f7f7fa;
     /* padding: 20px; */
     /* width: 300px; */
-    bottom:0;
+    bottom: 0;
     height: 500px;
     /* box-shadow: 0 0 10px; */
 }
@@ -1317,7 +1303,6 @@ input[type="submit"]:hover {
 /* footer */
 
 footer {
-
     background: #16222a;
     background: -webkit-linear-gradient(59deg, rgb(16, 70, 70), black);
     background: linear-gradient(59deg, rgb(16, 70, 70), black);
