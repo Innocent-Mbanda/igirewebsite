@@ -3,6 +3,8 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    background-color:rgb(252, 252, 252);
+
 }
 
 * {
@@ -58,7 +60,7 @@ header {
     display: grid;
     /* grid-template-columns: 1fr 4fr; */
     /* padding: 1rem; */
-    background-color: white;
+    background-color:rgb(254, 254, 254);
     border-bottom: 1px solid teal;
     border-bottom-width:2px;
     /* height: 80px; */
@@ -208,7 +210,7 @@ nav ul li:hover i {
     /* text-transform: lowercase; */
     /* line-height: 2rem; */
     font-size: 30px;
-    word-spacing: 1rem;
+    word-spacing: o.8rem;
     line-height: 3rem;
     text-align: left;
     font-family: "Roboto", sans-serif;
@@ -227,7 +229,7 @@ nav ul li:hover i {
     line-height:3rem;
     text-align: left;
     font-size: 30px;
-    word-spacing:1rem;
+    word-spacing:0.8rem;
 }
 
 .small p {
@@ -267,6 +269,10 @@ nav ul li:hover i {
     /* font-family: 'Tinos', serif; */
     height: 100%;
     width: 100%;
+    /* background-color:beige; */
+    background-color:rgb(254, 254, 254);
+
+    /* opacity: 0.9; */
 }
 
 .image {
