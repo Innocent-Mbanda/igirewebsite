@@ -861,7 +861,7 @@ nav ul li:hover i {
 .program .btn-outline-secondary {
     background-color: rgb(16, 70, 70);
     padding: 11px 26px;
-    color: white;
+    color: red;
     margin-bottom: 40px;
     margin-top: 20px;
 }
