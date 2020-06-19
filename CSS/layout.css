@@ -132,6 +132,11 @@ nav ul li:hover i {
     display: none;
 }
 
+.sticky {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
 .toggle {
     display: none;
 }
@@ -264,6 +269,10 @@ nav ul li:hover i {
     /* background-color:beige; */
     background-color: rgb(254, 254, 254);
     /* opacity: 0.9; */
+}
+
+.img-responsive {
+    border-radius: 50%;
 }
 
 .image {
