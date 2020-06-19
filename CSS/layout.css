@@ -314,7 +314,7 @@ nav ul li:hover i {
 /* AWE STARTS HeaderHERE */
 
 .rwanda {
-    /* padding-top: 2rem; */
+    margin-top: 100PX;
     background-color: whitesmoke;
 }
 
@@ -1057,7 +1057,8 @@ nav ul li:hover i {
 
 .missions-vission p {
     /* margin-left: 10px; */
-    color: black;
+    /* color: black; */
+    color: red;
     font-family: 'Tinos', serif;
     word-spacing: 0.5rem;
     line-height: 145%;
