@@ -24,6 +24,11 @@ body {
 
 /*headers*/
 
+.container-fluid2,
+nav {
+    box-shadow: 0 0 10px;
+}
+
 .contact ul {
     list-style-type: none;
     margin: 0;
@@ -68,6 +73,7 @@ header {
     width: auto;
     float: left;
     margin-left: 80px;
+    border-radius: 50%;
 }
 
 .nav-link {
@@ -145,18 +151,19 @@ nav ul li:hover i {
 /* SLIDING IMAGES */
 
 .carousel-item img {
-    padding-left: 20px;
-    padding-top: 15px;
-    padding-right: 10px;
-    width: 54%;
-    height: 100%;
-    margin-left: 40%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-right: 3%;
+    max-width: 59%;
+    max-height: 59%;
+    margin-left: 38%;
 }
 
 .carousel-caption {
     /* margin-top: 5%; */
-    width: 32%;
-    left: 90px;
+    width: 30%;
+    left: 80px;
     top: 10px;
     font-size: 10px;
     line-height: 2rem;
@@ -261,13 +268,14 @@ nav ul li:hover i {
 
 .images-container {
     border-style: double;
-    padding-bottom: 5px;
+    /* padding-bottom:5px; */
     position: relative;
     /* font-family: 'Tinos', serif; */
     height: 100%;
     width: 100%;
     /* background-color:beige; */
     background-color: rgb(254, 254, 254);
+    margin-top: 145px;
     /* opacity: 0.9; */
 }
 
@@ -1089,6 +1097,7 @@ nav ul li:hover i {
     background-repeat: no-repeat;
     background-size: 1400px;
     margin-left: 200px;
+    margin-top: 145px;
 }
 
 .aboutusp {
@@ -1269,7 +1278,7 @@ nav ul li:hover i {
 #button5,
 #button6,
 #button7,
-#button8 {
+#button8 p {
     display: none;
     font-size: 20px;
     font-family: 'Tinos', serif;
@@ -1290,6 +1299,7 @@ nav ul li:hover i {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    margin-top: 145px;
 }
 
 .color {
