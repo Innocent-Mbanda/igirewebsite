@@ -50,7 +50,7 @@ $(function() {
   $(document).ready(function() {
   $(".port1").hover(function(){
   $(".port1").mouseenter(function(){
-  $("#button").show();
+  $("#button1").show();
   });
 
   $(".port1").mouseleave(function(){
