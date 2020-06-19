@@ -131,6 +131,11 @@ nav ul li:hover i {
     display: none;
 }
 
+.sticky {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
 .toggle {
     display: none;
 }
@@ -260,6 +265,10 @@ nav ul li:hover i {
     /* font-family: 'Tinos', serif; */
     height: 100%;
     width: 100%;
+}
+
+.img-responsive {
+    border-radius: 50%;
 }
 
 .image {
