@@ -793,7 +793,7 @@ nav ul li:hover i {
 .program .btn-outline-secondary{
     background-color:rgb(16, 70, 70);
     padding: 11px 26px;
-    color:red;
+    color:white;
     margin-bottom:40px;
     margin-top: 20px;
 
@@ -955,9 +955,12 @@ nav ul li:hover i {
 
 
 /* style for partner */
+.partner img{
+    border-radius: 50%;
+}
 
 .partner h1 {
-    background-color: white;
+    /* background-color: white; */
    
         text-align: center;
         padding-top: 30px;
