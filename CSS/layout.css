@@ -267,7 +267,7 @@ nav ul li:hover i {
 }
 
 .images-container {
-    border-style: double;
+    /* border-style: double; */
     /* padding-bottom:5px; */
     position: relative;
     /* font-family: 'Tinos', serif; */
@@ -321,7 +321,7 @@ nav ul li:hover i {
 .rwanda2 {
     height: 85vh;
     background-color: hsla(150, 14%, 15%, 0.671);
-    border-style: dotted;
+    /* border-style: dotted; */
     padding-top: 0rem;
 }
 
@@ -421,7 +421,7 @@ nav ul li:hover i {
 .awe-images {
     background-color: #ffffff;
     margin-top: 3%;
-    border-style: double;
+    /* border-style: double; */
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column: 4rem;
@@ -615,14 +615,14 @@ nav ul li:hover i {
 }
 
 .impactcontainer {
-    border-style: solid;
+    /* border-style: solid; */
     display: grid;
     grid-template-columns: 60% 40%;
 }
 
 .impactcontainer2 {
     margin-top: 10px;
-    border-style: solid;
+    /* border-style: solid; */
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -690,7 +690,7 @@ nav ul li:hover i {
 }
 
 .ABOUTWHATWEDO {
-    border-style: dotted;
+    /* border-style: dotted; */
     padding: 0;
     margin: 0;
 }
@@ -708,7 +708,7 @@ nav ul li:hover i {
 }
 
 .trainings {
-    border-style: double;
+    /* border-style: double; */
     margin-top: 5%;
     grid-column: 2;
     grid-row: 1;
@@ -745,7 +745,7 @@ nav ul li:hover i {
 }
 
 .Coatching {
-    border-style: double;
+    /* border-style: double; */
     margin-top: 8%;
     grid-column: 2;
     grid-row: 1;
@@ -779,7 +779,7 @@ nav ul li:hover i {
 }
 
 .Mentorship {
-    border-style: double;
+    /* border-style: double; */
     margin-top: 5%;
     grid-column: 2;
     grid-row: 1;
@@ -843,7 +843,7 @@ nav ul li:hover i {
 
 .Programs {
     margin-top: 100px;
-    border-style: solid;
+    /* border-style: solid; */
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/background.jpeg");
     background-size: cover;
