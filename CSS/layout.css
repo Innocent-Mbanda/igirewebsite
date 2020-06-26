@@ -1108,23 +1108,31 @@ nav ul li:hover i {
     background-image: url(../images/awe2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 1400px;
+    background-size: cover;
     margin-left: 200px;
     margin-top: 145px;
 }
+.about_color{
+    background-color: black;
+    border-radius:2px;
+    /* padding-top: 150px; */
+     height: 250px;
+     margin-left: -150px;
+     width: 700px;
+     position: relative;
+   
+}
+.aboutusp  {
+    position: absolute;
 
-.aboutusp {
-    background: black;
-    opacity: 0.9;
     color: whitesmoke;
     text-align: center;
-    border-radius: 2px;
-    /* display: inline-block; */
+    border-radius:2px;
+    padding-top: 180px;
     height: 250px;
-    /* margin-top: 170px; */
-    margin-left: -100px;
+    /* margin-left: -100px; */
     width: 700px;
-    text-align: center;
+  
 }
 
 .about {
@@ -1178,13 +1186,16 @@ nav ul li:hover i {
 
 .us {
     /* width: 600px; */
+    color: black;
     text-align: center;
     /* float: right; */
     margin-right: 10px;
     /* padding-right:50px;; */
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.us p{
+    color: black;
+}
 .us h1 {
     text-align: center;
     text-transform: capitalize;
