@@ -1140,19 +1140,19 @@ nav ul li:hover i {
 
 .findmore {
     height: 100vh;
-    border-style: dotted;
+    /* border-style: dotted; */
     display: grid;
     grid-template-columns: 40% 60%;
 }
 
 .apply {
-    border-style: dotted;
+    /* border-style: dotted; */
     height: auto;
     grid-column: 2;
-    margin-top: 30%;
+    margin-top: 25%;
     background-color: rgb(239, 71, 141);
     opacity: 0.9;
-    margin-bottom: 20%;
+    /* margin-bottom: 20%; */
 }
 
 .apply p {
@@ -1179,11 +1179,26 @@ button {
     font-size: 80px;
     margin-bottom: 3%;
     background-color: rgb(239, 71, 141);
+    color: ivory;
 }
 
-.find {
-    /* margin-top: 100rem; */
-    color: chartreuse;
+.LastSection {
+    width: 100%;
+    height: auto;
+    height: 90vh;
+    margin: 5%;
+}
+
+.lastimage1 {
+    margin-top: 20%;
+    max-width: 50%;
+    height: 50%;
+}
+
+.lastimage2 {
+    max-width: 56.5%;
+    height: 70%;
+    /* margin-left: 5%; */
 }
 
 
