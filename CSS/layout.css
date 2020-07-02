@@ -169,6 +169,10 @@ nav ul li:hover i {
     line-height: 2rem;
 }
 
+.btn {
+    background: #00A7E1;
+}
+
 .small1 {
     padding: 0;
     /* margin: 10%; */
@@ -247,7 +251,7 @@ nav ul li:hover i {
 
 .small h1 {
     color: black;
-    font-size: 100px;
+    font-size: 70px;
 }
 
 .samll h3 {
@@ -430,7 +434,7 @@ nav ul li:hover i {
 
 .awe-images {
     margin-top: 100px;
-    border-style: dotted;
+    /* border-style: dotted; */
     margin-top: 3%;
     /* border-style: double; */
     display: grid;
@@ -646,10 +650,12 @@ nav ul li:hover i {
 
 .containercontent2 {
     grid-column: 2;
-    background-color: #5692859d;
+    background-color: hsla(167, 26%, 45%, 0.37);
 }
 
 .containercontent2 p {
+    margin-top: 20%;
+    justify-content: center;
     padding: 70px;
     color: black;
     font-size: 25px;
@@ -708,7 +714,7 @@ nav ul li:hover i {
 }
 
 .why_aweInRwanda {
-    border-style: double;
+    /* border-style: double; */
     /* background-color: chartreuse; */
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -1182,23 +1188,11 @@ button {
     color: ivory;
 }
 
-.LastSection {
+.container-last {
     width: 100%;
     height: auto;
     height: 90vh;
     margin: 5%;
-}
-
-.lastimage1 {
-    margin-top: 20%;
-    max-width: 50%;
-    height: 50%;
-}
-
-.lastimage2 {
-    max-width: 56.5%;
-    height: 70%;
-    /* margin-left: 5%; */
 }
 
 
