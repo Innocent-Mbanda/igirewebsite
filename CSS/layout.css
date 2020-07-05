@@ -169,6 +169,12 @@ nav ul li:hover i {
     line-height: 2rem;
 }
 
+.awe_image {
+    border-style: solid;
+    width: 1500px;
+    height: 715px;
+}
+
 .btn {
     background: #00A7E1;
 }
@@ -1124,8 +1130,7 @@ nav ul li:hover i {
 }
 
 .findmore {
-    height: 100vh;
-    /* border-style: dotted; */
+    height: 90vh;
     display: grid;
     grid-template-columns: 40% 60%;
 }
