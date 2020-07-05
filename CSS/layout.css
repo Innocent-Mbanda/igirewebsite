@@ -1123,13 +1123,14 @@ nav ul li:hover i {
 }
 
 .Learnmore {
-    height: 100vh;
+    height: 90vh;
     margin-top: 1%;
     padding: 0;
     background-image: url(/images/image3.jpg);
 }
 
 .findmore {
+    border-style: dotted;
     height: 90vh;
     display: grid;
     grid-template-columns: 40% 60%;
@@ -1139,7 +1140,7 @@ nav ul li:hover i {
     /* border-style: dotted; */
     height: auto;
     grid-column: 2;
-    margin-top: 22%;
+    margin-top: 10%;
     background-color: rgb(239, 71, 141);
     opacity: 0.9;
     /* margin-bottom: 20%; */
@@ -1147,7 +1148,7 @@ nav ul li:hover i {
 
 .apply p {
     grid-column: 2;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     grid-row: 1;
     font-size: 4rem;
     margin-left: 2rem;
@@ -1165,9 +1166,9 @@ nav ul li:hover i {
 
 .apply a,
 button {
-    margin-top: 10%;
+    /* margin-top: 10%; */
     margin-left: 15rem;
-    font-size: 80px;
+    font-size: 22px;
     margin-bottom: 3%;
     background-color: rgb(239, 71, 141);
     color: ivory;
