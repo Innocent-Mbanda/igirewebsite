@@ -170,7 +170,7 @@ nav ul li:hover i {
 }
 
 .awe_image {
-    border-style: solid;
+    /* border-style: solid; */
     width: 1500px;
     height: 715px;
 }
@@ -1130,7 +1130,7 @@ nav ul li:hover i {
 }
 
 .findmore {
-    border-style: dotted;
+    /* border-style: dotted; */
     height: 90vh;
     display: grid;
     grid-template-columns: 40% 60%;
