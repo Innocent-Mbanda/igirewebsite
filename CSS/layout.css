@@ -156,7 +156,7 @@ nav ul li:hover i {
     padding-top: 1%;
     padding-right: 3%;
     max-width: 59%;
-    max-height: 59%;
+    /* max-height: 59%; */
     margin-left: 38%;
 }
 
@@ -171,8 +171,8 @@ nav ul li:hover i {
 
 .awe_image {
     /* border-style: solid; */
-    width: 1500px;
-    height: 715px;
+    width: 55%;
+    /* height: 30%; */
 }
 
 .btn {
