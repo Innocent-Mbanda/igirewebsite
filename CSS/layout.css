@@ -176,6 +176,10 @@ nav ul li:hover i {
     line-height: 2rem;
 }
 
+.btn {
+    background: #00A7E1;
+}
+
 .small1 {
     padding: 0;
     /* margin: 10%; */
@@ -215,7 +219,7 @@ nav ul li:hover i {
 
 .small2 h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 60px;
+    font-size: 100px;
     font-weight: bold;
     color: #1d3557;
 }
@@ -252,6 +256,11 @@ nav ul li:hover i {
     font-size: 30px;
 }
 
+.small h1 {
+    color: black;
+    font-size: 70px;
+}
+
 .samll h3 {
     color: #2a9d8f;
 }
@@ -274,7 +283,7 @@ nav ul li:hover i {
 }
 
 .images-container {
-    border-style: double;
+    /* border-style: double; */
     /* padding-bottom:5px; */
     position: relative;
     /* font-family: 'Tinos', serif; */
@@ -326,9 +335,9 @@ nav ul li:hover i {
 }
 
 .rwanda2 {
-    height: 85vh;
-    background-color: hsla(150, 14%, 15%, 0.671);
-    border-style: dotted;
+    height: 55vh;
+    background-color: #212c26fa;
+    /* border-style: dotted; */
     padding-top: 0rem;
 }
 
@@ -339,7 +348,7 @@ nav ul li:hover i {
 }
 
 .awe-rwanda2 {
-    height: 79vh;
+    height: 56vh;
     /* border-style: solid; */
     display: grid;
     grid-template-columns: 50% 50%;
@@ -391,21 +400,22 @@ nav ul li:hover i {
 }
 
 .about-awe {
+    /* margin-top: 2%; */
     background-image: url(../images/awe-Rwanda.jpg);
     max-width: 100%;
-    height: 99%;
+    height: 65%;
     background-size: cover;
     background-position: center;
 }
 
 .progamawe {
     margin-top: 1%;
-    font-size: 29px;
+    font-size: 20px;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     text-align: left;
     font-weight: 100;
     text-align: left;
-    padding-top: 25px;
+    /* padding-top: 25px; */
     padding-left: 50px;
 }
 
@@ -425,10 +435,15 @@ nav ul li:hover i {
 
 /* impact pictures section for awe programs*/
 
+.whythisprogram {
+    /* background-color: #f0efeb; */
+}
+
 .awe-images {
-    background-color: #ffffff;
+    margin-top: 100px;
+    /* border-style: dotted; */
     margin-top: 3%;
-    border-style: double;
+    /* border-style: double; */
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column: 4rem;
@@ -471,10 +486,10 @@ nav ul li:hover i {
 }
 
 .AboutThisProgram p {
-    color: #202A25;
+    color: black;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: 200;
-    font-size: 30px;
+    font-size: 20px;
     text-align: justify;
     padding-top: 25px;
     padding-left: 80px;
@@ -511,7 +526,7 @@ nav ul li:hover i {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: 200;
     word-spacing: 0.5;
-    font-size: 30px;
+    font-size: 20px;
     text-align: justify;
     padding-top: 25px;
     padding-left: 80px;
@@ -543,9 +558,9 @@ nav ul li:hover i {
 }
 
 .impacttotheprogram {
-    margin-top: 10%;
+    margin-top: 20%;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 40% 60%;
 }
 
 .impact2 {
@@ -622,14 +637,14 @@ nav ul li:hover i {
 }
 
 .impactcontainer {
-    border-style: solid;
+    /* border-style: solid; */
     display: grid;
     grid-template-columns: 60% 40%;
 }
 
 .impactcontainer2 {
     margin-top: 10px;
-    border-style: solid;
+    /* border-style: solid; */
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -642,10 +657,12 @@ nav ul li:hover i {
 
 .containercontent2 {
     grid-column: 2;
-    background-color: #5692859d;
+    background-color: hsla(167, 26%, 45%, 0.37);
 }
 
 .containercontent2 p {
+    margin-top: 20%;
+    justify-content: center;
     padding: 70px;
     color: black;
     font-size: 25px;
@@ -697,14 +714,17 @@ nav ul li:hover i {
 }
 
 .ABOUTWHATWEDO {
-    border-style: dotted;
+    /* border-style: dotted; */
     padding: 0;
     margin: 0;
 }
 
 .why_aweInRwanda {
+    /* border-style: double; */
+    /* background-color: chartreuse; */
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 33% 33% 33%;
+    /* grid-template-rows: 33% 33% 33%; */
 }
 
 .Studentpicture {
@@ -714,19 +734,25 @@ nav ul li:hover i {
     height: auto;
 }
 
+.trainingimage {
+    border-radius: 5%;
+    grid-column: 1;
+    max-width: 100%;
+    height: auto;
+}
+
 .trainings {
-    border-style: double;
-    margin-top: 5%;
-    grid-column: 2;
-    grid-row: 1;
-    width: 70%;
-    justify-content: center;
-    margin-left: 15%;
+    /* border-style: dotted; */
+    margin-top: 8%;
+    grid-column: 1;
+    width: 89%;
+    margin: auto;
 }
 
 .trainings h1 {
-    margin-top: 4%;
-    color: #05668d;
+    padding-top: 20px;
+    color: red;
+    /* color: #05668d; */
     font-family: 'Times New Roman', Times, serif;
     font-weight: 200;
     font-size: 30px;
@@ -738,30 +764,23 @@ nav ul li:hover i {
 }
 
 .trainings p {
-    /* text-align: center;
-    color: black;
-    padding: 3%; */
     color: #202A25;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: 200;
     font-size: 20px;
-    text-align: justify;
-    padding-top: 25px;
-    padding-left: 40px;
-    padding-right: 10px;
+    text-align: left;
+    margin: 2%;
 }
 
-.Coatching {
-    border-style: double;
-    margin-top: 8%;
+.Coaching {
+    margin-top: 10%;
     grid-column: 2;
-    grid-row: 1;
-    width: 70%;
-    justify-content: center;
-    margin-left: 15%;
+    margin-top: 8%;
+    width: 89%;
+    margin: auto;
 }
 
-.Coatching h1 {
+.Coaching h1 {
     margin-top: 4%;
     color: #05668d;
     font-family: 'Times New Roman', Times, serif;
@@ -774,25 +793,20 @@ nav ul li:hover i {
     margin-bottom: 1%;
 }
 
-.Coatching p {
+.Coaching p {
     color: #202A25;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: 200;
     font-size: 20px;
-    text-align: justify;
-    padding-top: 25px;
-    padding-left: 40px;
-    padding-right: 10px;
+    text-align: left;
+    margin: 2%;
 }
 
 .Mentorship {
-    border-style: double;
-    margin-top: 5%;
-    grid-column: 2;
-    grid-row: 1;
-    width: 70%;
-    justify-content: center;
-    margin-left: 15%;
+    /* border-style: dotted; */
+    margin-top: 8%;
+    width: 89%;
+    margin: auto;
 }
 
 .Mentorship h1 {
@@ -809,28 +823,22 @@ nav ul li:hover i {
 }
 
 .Mentorship p {
+    /* margin-top: 20px; */
     color: #202A25;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: 200;
     font-size: 20px;
-    text-align: justify;
-    padding-top: 25px;
-    padding-left: 40px;
-    padding-right: 10px;
+    text-align: left;
+    margin: 0;
 }
 
 .studenttestimony {
-    margin-left: 10%;
-    margin-top: 1%;
-    padding-top: 70px;
-    color: black;
+    color: #202A25;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
     text-align: left;
-    word-spacing: 2px;
-    font-size: 25px;
-    line-height: 1.8rem;
-    vertical-align: baseline;
-    word-spacing: inherit;
-    font-family: "Times New Roman", Times, serif;
+    margin: 2%;
 }
 
 */
@@ -850,7 +858,7 @@ nav ul li:hover i {
 
 .Programs {
     margin-top: 100px;
-    border-style: solid;
+    /* border-style: solid; */
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/background.jpeg");
     background-size: cover;
@@ -868,8 +876,8 @@ nav ul li:hover i {
 .program .btn-outline-secondary {
     background-color: rgb(16, 70, 70);
     padding: 11px 26px;
-    color:white;
-    margin-bottom:40px;
+    color: white;
+    margin-bottom: 40px;
     margin-top: 20px;
 }
 
@@ -933,10 +941,11 @@ nav ul li:hover i {
 /* style for stories */
 
 .story {
-    /* background-image: url("https://images.unsplash.com/photo-1510674485131-dc88d96369b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=301&q=80");
+    background-image: url(../images/impactimage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 5rem; */
+    opacity: 5rem;
+    
     /* background-size: cover; */
     /* background-position: center; */
     /* background-attachment: fixed; */
@@ -959,6 +968,10 @@ nav ul li:hover i {
     margin: 1%;
     column-gap: 10px;
     /* color: orangered; */
+}
+
+.carde p {
+    font-size: 25px;
 }
 
 .col-sm-3 h5 {
@@ -1027,26 +1040,51 @@ nav ul li:hover i {
 
 
 /* style for partner */
-.partner img{
+
+.partner img {
     border-radius: 50%;
 }
 
 .partner h1 {
     /* background-color: white; */
-   
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 40px;
-        font-weight: bold;
-        font-size: 35px;
-        color: rgb(10, 37, 37);
-        text-transform: capitalize;
-        font-family: "Roboto", sans-serif;
-    }
-
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(10, 37, 37);
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+}
 
 
 /* mission&vision style */
+
+.aboutIgire {
+    margin: 5%;
+    padding: 0;
+}
+
+.igire h1 {
+    margin-top: 1%;
+    text-decoration: overline;
+    text-decoration-color: orange;
+    text-decoration-style: solid;
+    margin-left: 30%;
+    font-size: 4rem;
+}
+
+.igire P {
+    color: inherit;
+    line-height: 3rem;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-style: normal;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600px;
+    text-rendering: optimizeLegibility;
+    margin-left: 10%;
+}
 
 .missions_vission {
     font-family: "Open Sans", sans-serif;
@@ -1085,6 +1123,65 @@ nav ul li:hover i {
     text-transform: capitalize;
 }
 
+.Learnmore {
+    height: 100vh;
+    margin-top: 1%;
+    padding: 0;
+    background-image: url(../images/image3.jpg);
+}
+
+.findmore {
+    height: 100vh;
+    /* border-style: dotted; */
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.apply {
+    /* border-style: dotted; */
+    height: auto;
+    grid-column: 2;
+    margin-top: 22%;
+    background-color: rgb(239, 71, 141);
+    opacity: 0.9;
+    /* margin-bottom: 20%; */
+}
+
+.apply p {
+    grid-column: 2;
+    margin-top: 5%;
+    grid-row: 1;
+    font-size: 4rem;
+    margin-left: 2rem;
+}
+
+.apply h4 {
+    grid-column: 2;
+    color: whitesmoke;
+    /* grid-row: 1; */
+    margin-left: 2rem;
+    font-size: 10rem;
+    width: 40%;
+    /* border-style: double; */
+}
+
+.apply a,
+button {
+    margin-top: 10%;
+    margin-left: 15rem;
+    font-size: 80px;
+    margin-bottom: 3%;
+    background-color: rgb(239, 71, 141);
+    color: ivory;
+}
+
+.container-last {
+    width: 100%;
+    height: auto;
+    height: 90vh;
+    margin: 5%;
+}
+
 
 /* about section of awe */
 
@@ -1105,7 +1202,7 @@ nav ul li:hover i {
 
 .aboutus {
     height: 600px;
-    background-image: url(../images/awe2.jpg);
+    background-image: url(../images/gerakuntego.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1124,7 +1221,7 @@ nav ul li:hover i {
 }
 .aboutusp  {
     position: absolute;
-
+      /* background-color: black; */
     color: whitesmoke;
     text-align: center;
     border-radius:2px;
@@ -1138,6 +1235,7 @@ nav ul li:hover i {
 .about {
     height: 250px;
     padding-top: 100px;
+
 }
 
 
@@ -1196,6 +1294,7 @@ nav ul li:hover i {
 .us p{
     color: black;
 }
+
 .us h1 {
     text-align: center;
     text-transform: capitalize;
@@ -1485,6 +1584,7 @@ ul.social-network li {
 
 .social-network a.icoTwitter:hover {
     background-color: #007bb7;
+    /* font-size: 20px; */
 }
 
 .social-network a.icoFacebook:hover i,
