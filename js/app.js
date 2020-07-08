@@ -72,6 +72,29 @@ function myReadu(){
   
 }
 
+let k =0;
+function myFunctionImpact(){
+    if(!k){
+      document.getElementById("moreimpact").style.display="inline"; 
+
+      document.getElementById("dotsimpact").style.display="none"; 
+
+      document.getElementById("readimpact").innerHTML = "Read less";
+
+      k=1;
+
+    }
+    else{
+        document.getElementById("moreimpact").style.display="none"; 
+
+        document.getElementById("dotsimpact").style.display="inline"; 
+  
+        document.getElementById("readimpact").innerHTML = "Read more";
+  
+      k=0; 
+    }
+  
+}
 
 
 
