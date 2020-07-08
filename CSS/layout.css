@@ -1040,6 +1040,8 @@ nav ul li:hover i {
     font-style: normal;
     line-height:2.5rem;
     font-weight: 600px;
+    /* font-family: "Roboto", sans-serif; */
+
 }
 
 .col-sm-3 h5 {
@@ -1146,7 +1148,7 @@ nav ul li:hover i {
     padding: 3px 35px;
     font-size: 2rem;
     font-weight: bold;
-    outline-width: 1px white;
+    border:2px solid white;
 
 } 
 
@@ -1302,16 +1304,17 @@ nav ul li:hover i {
 
 .igire P {
     color: #202A25;
-    line-height: 3rem;
+    line-height:2.5rem;
     /* font-family: 'Times New Roman', Times, serif; */
     /* font-family: 'Tinos', serif; */
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-style: normal;
     text-align: center;
     font-size: 1.5rem;
-    font-weight: 600px;
+    font-weight: 500;
     text-rendering: optimizeLegibility;
     margin-left: 10%;
+    word-spacing:0.3px;
 }
 
 
@@ -1326,13 +1329,16 @@ nav ul li:hover i {
 .missions-vission p {
     /* margin-left: 10px; */
     color: #202A25;
-    font-family: 'Roboto', sans-serif;
-     
-    /* word-spacing: 0.2rem; */
-    font-size: 1.5rem;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
-    line-height:1.8;
-    font-weight: 400;
+    text-align: center;
+    font-size: 22px;
+    font-weight:400;
+    text-align:left;
+    line-height: 1.6;
+    word-spacing:0.3px;
+    text-rendering: optimizeLegibility;
 
 }
 
@@ -1613,15 +1619,32 @@ nav ul li:hover i {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 50px;
+    padding-top:8%;
+    
+}
+.containere h2:after{
+    content: "";
+    position: absolute;
+    top: 320px;
+    margin-left: -250px;
+    /* left: 400px; */
+    height: 2px;
+    width: 10%;
+    border-bottom: 3px solid #c06f24;
+
 }
 
 .color p {
     margin-top: 40px;
     width: 1200px;
     padding-left: 200px;
-    color: white;
+    /* color: whitesmoke; */
     word-spacing: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size:18px;
+    line-height: 1.5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 input[type="text"],
@@ -1647,42 +1670,52 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: darkorange;
+    background-color:#c06f24;
 }
 
 .phone:after {
     content: "";
     position: absolute;
-    bottom: 400px;
+    bottom: 350px;
     margin-left: -120px;
     /* left: 400px; */
     height: 1px;
     width: 35%;
-    border-bottom: 1px solid orange;
+    border-bottom: 2px solid #c06f24;
+}
+.form h4:after {
+    content: "";
+    position: absolute;
+    bottom:380px;
+    margin-left: -80px;
+    /* left: 400px; */
+    height: 1px;
+    width: 10%;
+    border-bottom:2px solid #c06f24;
 }
 
 .phone {
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.95;
     word-spacing: normal;
+    
 }
 
 .phone h3 {
-    padding-top: 40px;
+    padding-top:100px;
 }
 
 .phone,
 p {
     color: white;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .form {
     /* margin-top: 100px; */
     border-radius-left: 35px;
     background-color: #f7f7fa;
-    /* padding: 20px; */
-    /* width: 300px; */
+    padding-top:80px;
     bottom: 0;
     height: 500px;
     /* box-shadow: 0 0 10px; */
