@@ -39,6 +39,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/media.css">
+
 
     
 
@@ -72,17 +74,15 @@
                 </ul>
             </div>
         </div>
-        <nav>
-            <a href="index.html">
+    
+    <nav>
+        <a href="index.html">
                 <img class="Logo-image" src="images/igire logo.png" alt="" width="50">
             </a>
+            <div class="mobile-nav">
+                <div id="mylinks">
             <ul>
-                <!-- <li class="mobile-nav">
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                </li> -->
-                <!-- </a> -->
-                <!-- <div id="menu"> -->
+                
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <strong> ABOUT</strong>
@@ -115,10 +115,16 @@
                         <strong>CONTACT</strong></a>
                 </li>
                 <!-- </div> -->
+               
             </ul>
-        </nav>
-    </header>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="MobileNav()">
+            <i class="fa fa-bars"></i>
+          </a>
+       </div>
+    </nav>
 
+    </header>
     <section class="images-container">
         <div id="carousel-1" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -128,8 +134,10 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
+                   
                     <img class="images" src="images/image2.jpg" alt="First slide" style="position:relative">
                     <div class="carousel-caption d-none d-md-block">
+                       
                         <h1 class="small1">
                             <b><strong><span style="color:rgb(10, 37, 37);" ,uppercase>SheCan<span
                                             style="color:#00b4d8;">CODE</span></strong> </b>
@@ -142,13 +150,23 @@
 
 
                     </div>
+
+                    <h1 class="small1-phone">
+                        <b><strong><span style="color:rgb(10, 37, 37);" ,uppercase>SheCan<span
+                                        style="color:#00b4d8;">CODE</span></strong> </b>
+                        <br><br>
+                        <p> Trains women and girls in Rwanda to become software developers,
+                            tech enthusiast and tech leaders in industry</p>
+                        <a href="http://www.shecancodeschool.org/" TARGET="_blank"><button
+                                class="btn btn-outline-secondary"> Learn More</button></a>
+                    </h1>
                 </div>
                 <div class="carousel-item">
                     <img class="awe_image" src="images/academy2.jpg" class="img-responsive" alt="">
                     <div class="carousel-caption d-none d-md-block">
                         <hi class="small2">
                             <h1>50%
-                                <h1>
+                            </h1>
                                     <p>of <span style=" color:#264653;text-transform: uppercase;">AWE</span> graduates opened the small business and top 10 projects awarded start up grant capital from USA Embassy Kigali
                                     </p>
 
@@ -156,7 +174,18 @@
                                             More</button></a>
 
                         </hi>
+                        
                     </div>
+                    <hi class="small2-phone">
+                        <h1>50%
+                        </h1>
+                                <p>of <span style=" color:#264653;text-transform: uppercase;">AWE</span> graduates opened the small business and top 10 projects awarded start up grant capital from USA Embassy Kigali
+                                </p>
+
+                                <a href="awe.html"><button class="btn btn-outline-secondary"> Learn
+                                        More</button></a>
+
+                    </hi>
                 </div>
 
                 <div class="carousel-item">
@@ -173,6 +202,16 @@
 
                         </hi>
                     </div>
+                    <hi class="small2-phone">
+                        <h1>70%
+                        </h1>
+                                <p>of <strong><span style="color:#1d3557" ,uppercase>SheCan<span
+                                                style="color:#00b4d8;">CODE</span></strong> graduates are employed by tech companies, own startups tech business and persuing advanced tech courses.
+                                </p>
+                                <a href="http://www.shecancodeschool.org/" TARGET="_blank"><button
+                                        class="btn btn-outline-secondary"> Learn More</button></a>
+                    </hi>
+                    
                 </div>
                 <div class="carousel-item">
                     <img class="images" src="images/image3.jpg" alt="Third slide">
@@ -191,10 +230,24 @@
                                 <a href="http://www.shecancodeschool.org/" TARGET="_blank"><button
                                         class="btn btn-outline-secondary"> Learn More</button></a>
 
-                        </hi>
+                        
 
                         </hi>
                     </div>
+                    <hi class="small-phone">
+                        <h1> More than 900</h1>
+                            <p>Have shown interest to learn software development skills by applying to attend <strong>
+                                     <span style="color:#1d3557" ,uppercase>SheCan<span style="color:#00b4d8;">CODE</span></strong>
+                                             and less than 20% have been admitted to the program due to the limited space.
+                                               <!-- Our goal is to work with partners to increase the number of addimited students in
+                                2021 and run both in-person and online program. -->
+                            </p>
+                            <a href="http://www.shecancodeschool.org/" TARGET="_blank"><button
+                                    class="btn btn-outline-secondary"> Learn More</button></a>
+
+                    
+
+                    </hi>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
@@ -210,6 +263,7 @@
         </div>
 
     </section>
+    
     <!-- <span class="border-bottom border-dark"></span> -->
 
     <section class="aboutIgire">
@@ -433,10 +487,10 @@
 
     </section>
     <section class="partner">
-        <div class="container">
+        <div class="container-fluid">
             <h1>Partners</h1>
             <div class="row">
-                <div class="col-sm-3" id="logo1"><img src="images/usembassylog.jpg" class="img-responsive" width=180></div>
+                <div class="col-sm-3" id="logo1"><img src="images/usembassylog.jpg" class="img-responsive" width=200></div>
                 <div class="col-sm-3" id="logo2"><img src="images/dotRwanda.png" class="img-responsive" width=200 height="200"></div>
                 <div class="col-sm-3" id="logo3"><img src="images/stella.png" class="img-responsive" width=200 height="200"></div>
                 <div class="col-sm-3" id="logo4"><img src="images/progate.png" class="img-responsive" width=200 height="200"></div>

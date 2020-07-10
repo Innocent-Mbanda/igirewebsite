@@ -40,6 +40,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/media.css">
+
 </head>
 
 <body>
@@ -69,39 +71,54 @@
 
         <nav>
             <a href="index.html">
-                <img class="Logo-image" src="images/igire logo.png" alt="" width="50">
-            </a>
-            <ul>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ABOUT 
-                  </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="team.html">Team</a>
-                        <a class="dropdown-item" href="#">Misson & Vision</a>
-                        <!-- <div class="dropdown-divider"></div> -->
-
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        PROJECTS
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="http://www.shecancodeschool.org/" TARGET="_blank"><strong> SheCan<span style="color: #4cc9f0;">CODE</span></strong></a>
-                        <a class="dropdown-item" href="awe.html">AWE</a>
-                        <!-- <div class="dropdown-divider"></div> -->
-                        <!-- <a class="dropdown-item" href="#">Something else here</a> -->
-
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Impact.html">IMPACT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">CONTACT</a>
-                </li>
-            </ul>
+                    <img class="Logo-image" src="images/igire logo.png" alt="" width="50">
+                </a>
+                <div class="mobile-nav">
+                    <div id="mylinks">
+                <ul>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <strong> ABOUT</strong>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="team.html"> <strong>TEAM</strong></a>
+                            <a class="dropdown-item" href="#">Misson & Vision</a>
+                            <!-- <div class="dropdown-divider"></div> -->
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <strong>PROJECTS</strong>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="http://www.shecancodeschool.org/" TARGET="_blank"> <strong> SheCan<span style="color: #4cc9f0;">CODE</span></strong></a>
+                            <a class="dropdown-item" href="awe.html">
+                                <strong>AWE</strong>
+                            </a>
+                            <!-- <div class="dropdown-divider"></div> -->
+                            <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Impact.html">
+                            <strong> IMPACT</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            <strong>CONTACT</strong></a>
+                    </li>
+                    <!-- </div> -->
+                   
+                </ul>
+               
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="MobileNav()">
+                <i class="fa fa-bars"></i>
+              </a>
+                
+           </div>
+           
         </nav>
     </header>
     <section class="impactpage">

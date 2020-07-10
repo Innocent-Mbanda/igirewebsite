@@ -24,8 +24,8 @@
     
 
 // ...................mobile nav......................
-function myFunction() {
-  var x = document.getElementById("menu");
+function MobileNav () {
+  var x = document.getElementById("mylinks");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
