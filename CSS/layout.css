@@ -17,7 +17,7 @@ body {
     background-color:rgba(245, 245, 245, 0.993);
 } */
 
-.mobile-nav {
+.mob-nav {
     display: none;
 }
 
@@ -56,7 +56,10 @@ nav {
 }
 
 .contact li a:hover {
-    background-color: teal;
+    background-color:teal;
+    /* background-color: rgb(16, 70, 70); */
+
+    
 }
 
 header {
@@ -141,9 +144,7 @@ nav ul li:hover i {
     color: yellowgreen;
 }
 
-.header {
-    display: none;
-}
+
 
 .sticky {
     position: fixed;
@@ -153,12 +154,18 @@ nav ul li:hover i {
 .toggle {
     display: none;
 }
-
+/* nav-mobile style yyy */
+ .fa-bars{
+    display:none;
+} 
+.small1-phone,.small2-phone,.small-phone{
+    display:none;
+}
 
 
 /* SLIDING IMAGES */
 
-.carousel-item img {
+ .carousel-item img {
     padding-left: 2%;
     padding-bottom: 1%;
     padding-top: 1%;
@@ -181,12 +188,10 @@ nav ul li:hover i {
     font-size: 10px;
     line-height: 2rem;
 }
-
-.awe_image {
-    /* border-style: solid; */
-    width: 55%;
-    /* height: 30%; */
+.images-container2 p{
+    color:black;
 }
+
 
 /* .btn {
     background: #00A7E1;
@@ -195,14 +200,16 @@ nav ul li:hover i {
 .small1 {
     padding: 0;
     /* margin: 10%; */
-    color: red;
+    /* color: red; */
     /* font-weight: bold; */
     font-weight: 700;
     font-size: 160px;
     line-height: 1.8rem;
     text-align: left;
     white-space: 0.5rem;
+
 }
+
 
 .small1 b {
 
@@ -213,6 +220,7 @@ nav ul li:hover i {
     text-align: right;
     white-space: 0.5rem;
 }
+
 
 .small b {
     /* color: #1d3557; */
@@ -256,6 +264,7 @@ nav ul li:hover i {
     text-align: left;
     font-size: 30px;
     word-spacing: 0.1rem;
+    text-decoration: none;
   
 }
 
@@ -1276,7 +1285,9 @@ nav ul li:hover i {
 }
 .imagegallery4{
   /* background-color:teal; */
-  background-color: rgb(16, 70, 70);
+               
+  background-color:teal;
+  /* #00b4d8; */
 
   opacity: 0.9;
   margin-left:-350px;
@@ -1384,7 +1395,7 @@ nav ul li:hover i {
     opacity:0.98;
     border-radius:2px;
     /* padding-top: 150px; */
-     height: 250px;
+     /* height: 250px; */
      margin-left: -150px;
      width: 700px;
      position: relative;
@@ -1484,7 +1495,7 @@ nav ul li:hover i {
     /* width:40px; */
     /* height:40px; */
     background-color: #f7f7fa;
-    height: 650px;
+    /* height: 650px; */
     border-bottom-left-radius: 20%;
     border-top-right-radius: 20%;
     margin-top:100px;
