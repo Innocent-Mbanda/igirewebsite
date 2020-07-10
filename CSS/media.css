@@ -24,13 +24,14 @@
         height: auto;
         /* color: red; */
     }
-    /* nav ul {
+    nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         padding-left: 10px;
         margin-top: 10px;
-    }
-     */
+    } 
+     
+     
     #logo1,
     #logo2,
     #logo3,
@@ -62,7 +63,12 @@
         /* color: yellow; */
     }
     
-  
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding-left: 50px;
+        margin-top: 10px;
+    }
     
     .carde img {
         height: 50px;
