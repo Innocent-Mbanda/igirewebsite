@@ -256,6 +256,137 @@
 .studenttestimony{
     width: 700px;
 }
+/* awe page style */
+
+.rwanda {
+    margin-top: 170PX;
+    background-color: whitesmoke;
+}
+.logo1 {
+    width:100%;
+    height: 100%;
+    display: grid;
+    justify-content:justify;
+    align-content: center;
+    position: relative;
+    background-color: #ffffff;
+}
+.academy2 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height:100%;
+    background-color: #264653;
+    color: white;
+}
+.academy {
+    font-size: 2rem;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.rwanda2 {
+    height:85vh;
+ 
+}
+.AboutThisProgram {
+    /* border-style: double; */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.Goals-awe p {
+    margin-top: 1%;
+    padding-right: 30px;
+    color: #202A25;
+    font-weight: 300;
+    word-spacing: 0.1;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size:26px;
+    line-height:2.9rem;
+}
+.AboutThisProgram p {
+    color:#202A25;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 20px;
+    line-height:2.9rem ;
+    word-spacing: 0.1;
+
+}
+
+
+.trainings h1 {
+    padding-top: 20px;
+  
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.trainings p {
+    color: #202A25;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin: 2%;
+}
+
+
+
+.Coaching h1 {
+    margin-top: 4%;
+    color: #05668d;
+    font-weight: bold;
+    font-size: 28px;
+   
+}
+
+.Coaching p {
+    color: #202A25;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin: 2%;
+}
+
+
+
+.Mentorship h1 {
+    margin-top: 4%;
+    color: #05668d;
+    font-weight: 200;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.Mentorship p {
+    /* margin-top: 20px; */
+    
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin: 0;
+}
+.expectations {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+
 
 
 }
@@ -802,6 +933,204 @@ font-weight: bold;
     /* color: whitesmoke; */
     
 }
+
+/* awe page style */
+
+.rwanda {
+    margin-top:50PX;
+    background-color: whitesmoke;
+}
+.awe-rwanda {
+    /* border-style: double ; */
+    display: grid;
+    color: white;
+    grid-template-columns: 20% 80%;
+}
+.log {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left:5px;
+}
+.logo1 {
+    width:100%;
+    height: 100%;
+    display: grid;
+    justify-content:justify;
+    align-content: center;
+    position: relative;
+    background-color: #ffffff;
+}
+.academy2 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height:100%;
+    margin-left:40px;
+    background-color: #264653;
+}
+.academy {
+    font-size: 2rem;
+    color: #202A25;
+    font-size: 24px;
+}
+
+.rwanda2 {
+    height:85vh;
+ 
+
+}
+.awe-rwanda2 {
+    height: 56vh;
+    /* border-style: solid; */
+    display:block;
+    grid-template-columns: 40% 50%;
+    /* column-gap: 2rem; */
+}
+.about-awe {
+    /* margin-top: 2%; */
+    background-image: url(../images/awe-Rwanda.jpg);
+    max-width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.progamawe {
+    margin-top: 1%;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 100;
+    text-align: left;
+    /* padding-top: 25px; */
+    padding-left: 50px;
+    /* color:black; */
+    margin-bottom: 200px;
+    background-color: #202A25;
+    height: 900px;
+}
+.awe-images {
+    margin-top: 100px;
+    /* border-style: dotted; */
+    margin-top: 3%;
+    /* border-style: double; */
+    display: block;
+    grid-template-columns: 50% 50%;
+    grid-column: 4rem;
+}
+
+
+
+.whythisprogram{
+    padding-top:900px;
+
+
+}
+
+.AboutThisProgram {
+    /* border-style: double; */
+    width: 100%;
+    height: 100%;
+}
+.Goals-awe p {
+    margin-top: 1%;
+    padding-right: 30px;
+    color: #202A25;
+    font-weight: 300;
+    word-spacing: 0.1;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size:26px;
+    line-height:2.9rem;
+}
+.AboutThisProgram p {
+    color:#202A25;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 20px;
+    line-height:2.9rem ;
+    word-spacing: 0.1;
+
+}
+.why_aweInRwanda {
+    /* border-style: double; */
+    /* background-color: chartreuse; */
+    display: block;
+    grid-template-columns: 33% 33% 33%;
+    /* grid-template-rows: 33% 33% 33%; */
+}
+
+
+.trainings h1 {
+    padding-top: 20px;
+  
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.trainings p {
+    color: #202A25;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin: 2%;
+}
+
+
+
+.Coaching h1 {
+    margin-top: 4%;
+    color: #05668d;
+    font-weight: bold;
+    font-size: 28px;
+   
+}
+
+.Coaching p {
+    color: #202A25;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin: 2%;
+}
+
+
+
+.Mentorship h1 {
+    margin-top: 4%;
+    color: #05668d;
+    font-weight: 200;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.Mentorship p {
+    /* margin-top: 20px; */
+    
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin: 0;
+}
+.expectations {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
     .fa-bars{
         display: block;
     }
