@@ -24,13 +24,76 @@
         height: auto;
         /* color: red; */
     }
-    /* nav ul {
+    nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         padding-left: 10px;
         margin-top: 10px;
+    } 
+     .carousel-item img {
+        padding-left:0.5%;
+        margin-bottom:20%;
+        padding-top: 1%;
+        padding-right: 8%;
+        max-width: 79%;
+        max-height:80%;
+        margin-left:42%;
+      
     }
-     */
+    .carousel-caption {
+        /* margin-top: 5%; */
+        width: 45%;
+        left: 10px;
+        top: 10px;
+        font-size: 10px;
+        line-height: 2rem;
+        
+    }
+    .images-container {
+        /* border-style: double; */
+        /* padding-bottom:5px; */
+        position: relative;
+        height:auto;
+        width: 100%;
+        /* background-color:beige; */
+        background-color: rgb(254, 254, 254);
+        margin-top:220px;
+        /* height:700px; */
+        /* opacity: 0.9; */
+    }
+    .igire h1{
+        padding-top:10px;
+        margin-left:60px;
+        /* text-align: center; */
+    }
+    .igire P {
+        color: #202A25;
+        line-height:2.5rem;
+        font-style: normal;
+        text-align: justify;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-rendering: optimizeLegibility;
+        margin-left:2%;
+        word-spacing:0.3px;
+    }
+    .apply {
+        /* border-style: dotted; */
+        height: auto;
+        grid-column: 2 ;
+        margin-top: 80%;
+        /* height: 70vh; */
+        margin-right:10%;
+        /* background-color: rgb(239, 71, 141); */
+        background-color:hsl(20, 85%, 56%);
+        opacity: 0.92;
+        margin-left:-110px;
+        margin-right: 10px;
+        width: 550px;
+        /* margin-bottom: 20%; */
+    }
+     
+     
     #logo1,
     #logo2,
     #logo3,
@@ -50,6 +113,282 @@
         /* height: 350px; */
         padding-top: 100px;
     }
+
+/* gallery */
+
+.imagegallery4{
+    /* background-color:teal; */
+                 
+    background-color:teal;
+    /* #00b4d8; */
+  
+    /* opacity: 0.9; */
+    margin-left:3px;
+    margin-top:-115px;
+    height:700px;
+    
+  }
+  .gallery h1{
+ 
+    color: whitesmoke;
+    margin-left: 2rem;
+    font-size:6rem;
+    font-weight: bold;
+    margin-top:25%;
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-family: 'Roboto', serif;
+
+}
+.gallery p {
+   
+    font-size:1.5rem;
+    margin-left:1.5rem;
+    color: whitesmoke;
+    margin-top:50px;
+    margin-left:50px;
+   font-family: 'Roboto', serif;
+
+}
+/* apply */
+
+
+.apply {
+    /* border-style: dotted; */
+    height: auto;
+    grid-column: 2 ;
+    margin-top: 80%;
+    height: 75vh;
+    margin-right:10%;
+    /* background-color: rgb(239, 71, 141); */
+    background-color:hsl(20, 85%, 56%);
+    opacity: 0.92;
+    margin-left:-110px;
+    margin-right: 10px;
+    width: 500px;
+    /* margin-bottom: 20%; */
+}
+.apply a,button{
+    /* margin-top: 10%; */
+    margin-left:50px;
+    margin-bottom: 20px;
+    /* font-size: 22px; */
+    /* background-color: rgb(239, 71, 141); */
+    background-color:hsl(20, 85%, 56%);
+    
+    color: ivory;
+}
+.apply p {
+    grid-column: 2;
+    /* margin-top: 5%; */
+    grid-row: 1;
+    font-size: 4rem;
+    margin-left: 2rem;
+}
+
+.apply h4 {
+    /* grid-column: 2; */
+    color: whitesmoke;
+    /* grid-row: 1; */
+    margin-left: 2rem;
+    font-size: 8rem;
+    font-weight: bold;
+    /* width: 40%; */
+    /* border-style: double; */
+}
+/* story */
+.col-sm-3 .carde {
+    /* border-style: dotted; */
+    /* margin-left:36px; */
+    column-gap:369px;
+    /* width:1000px; */
+    padding-left:30px;
+    display: grid;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(16, 70, 70);
+    border-radius: 3%;
+    top: calc(90%);
+}
+
+.containere h2:after{
+    content: "";
+    position: absolute;
+    top: 280px;
+    margin-left: -250px;
+    /* left: 400px; */
+    height: 2px;
+    width: 30%;
+    border-bottom: 3px solid #c06f24;
+
+}
+.phone:after {
+    content: "";
+    position: absolute;
+    bottom: 190px;
+    margin-left: -100px;
+    /* left: 400px; */
+    height: 1px;
+    width: 30%;
+    border-bottom: 2px solid #c06f24;
+}
+.color p {
+    margin-top:20px;
+    width:700px;
+    padding-left:20px;
+    font-size: 28px;
+    /* color: whitesmoke; */
+    
+}
+
+.imageofimpact  {
+ 
+    /* columns: 1; */
+    background-image: url(../images/shecancodestudent.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+
+}
+.studenttestimony{
+    width: 700px;
+}
+/* awe page style */
+
+.rwanda {
+    margin-top: 170PX;
+    background-color: whitesmoke;
+}
+.logo1 {
+    width:100%;
+    height: 100%;
+    display: grid;
+    justify-content:justify;
+    align-content: center;
+    position: relative;
+    background-color: #ffffff;
+}
+.academy2 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height:100%;
+    background-color: #264653;
+    color: white;
+}
+.academy {
+    font-size: 2rem;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.rwanda2 {
+    height:85vh;
+ 
+}
+.AboutThisProgram {
+    /* border-style: double; */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.Goals-awe p {
+    margin-top: 1%;
+    padding-right: 30px;
+    color: #202A25;
+    font-weight: 300;
+    word-spacing: 0.1;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size:26px;
+    line-height:2.9rem;
+}
+.AboutThisProgram p {
+    color:#202A25;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 20px;
+    line-height:2.9rem ;
+    word-spacing: 0.1;
+
+}
+
+
+.trainings h1 {
+    padding-top: 20px;
+  
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.trainings p {
+    color: #202A25;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin: 2%;
+}
+
+
+
+.Coaching h1 {
+    margin-top: 4%;
+    color: #05668d;
+    font-weight: bold;
+    font-size: 28px;
+   
+}
+
+.Coaching p {
+    color: #202A25;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin: 2%;
+}
+
+
+
+.Mentorship h1 {
+    margin-top: 4%;
+    color: #05668d;
+    font-weight: 200;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.Mentorship p {
+    /* margin-top: 20px; */
+    
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin: 0;
+}
+.expectations {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+
+
+
 }
 
 
@@ -62,7 +401,12 @@
         /* color: yellow; */
     }
     
-  
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding-left: 50px;
+        margin-top: 10px;
+    }
     
     .carde img {
         height: 50px;
@@ -224,11 +568,11 @@
 .carousel-item img {
    
     padding-left:5%;
-    padding-bottom: 1%;
+    padding-bottom:0%;
     margin-top:10%;
     padding-right: 7%;
     max-width: 100%;
-    height:380px;
+    height:400px;
     margin-left: 1%;
   
 }
@@ -254,7 +598,7 @@
     /* margin-top: 5%; */
     width: 70%;
     left: 0px;
-    top: 400px;
+    top: 2%;
     font-size: 10px;
     line-height: 1rem;
     
@@ -326,6 +670,7 @@ font-weight: bold;
 
 .small1-phone,.small2-phone,.small-phone{
     display:block;
+    margin-top:-50px;
 }
 
 
@@ -426,10 +771,18 @@ font-weight: bold;
     background-color:hsl(20, 85%, 56%);
     opacity: 0.92;
     margin-left:-110px;
-    margin-right: 10px;
-    width: 350px;
+    margin-right: 20px;
+    width: 300px;
     /* margin-bottom: 20%; */
 }
+.apply p {
+    grid-column: 2;
+    /* margin-top: 5%; */
+    grid-row: 1;
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
 .apply a,button{
     /* margin-top: 10%; */
     margin-left:50px;
@@ -453,6 +806,8 @@ font-weight: bold;
     width:200px;
 }
 
+.partner{
+    padding-top:50vh;}
 /* gallery */
 
 .imagegallery4{
@@ -550,6 +905,232 @@ font-weight: bold;
         word-spacing: inherit;
         font-family: 'Roboto', sans-serif;
     }
+    .containere h2:after{
+        content: "";
+        position: absolute;
+        top: 240px;
+        margin-left: -250px;
+        /* left: 400px; */
+        height: 2px;
+        width: 30%;
+        border-bottom: 3px solid #c06f24;
+    
+    }
+    .phone:after {
+        content: "";
+        position: absolute;
+        bottom: 190px;
+        margin-left: -80px;
+        /* left: 400px; */
+        height: 1px;
+        width: 35%;
+        border-bottom: 2px solid #c06f24;
+    }
+.color p {
+    margin-top:0px;
+    width:400px;
+    padding-left:10px;
+    /* color: whitesmoke; */
+    
+}
+
+/* awe page style */
+
+.rwanda {
+    margin-top:50PX;
+    background-color: whitesmoke;
+}
+.awe-rwanda {
+    /* border-style: double ; */
+    display: grid;
+    color: white;
+    grid-template-columns: 20% 80%;
+}
+.log {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left:5px;
+}
+.logo1 {
+    width:100%;
+    height: 100%;
+    display: grid;
+    justify-content:justify;
+    align-content: center;
+    position: relative;
+    background-color: #ffffff;
+}
+.academy2 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height:100%;
+    margin-left:40px;
+    background-color: #264653;
+}
+.academy {
+    font-size: 2rem;
+    color: #202A25;
+    font-size: 24px;
+}
+
+.rwanda2 {
+    height:85vh;
+ 
+
+}
+.awe-rwanda2 {
+    height: 56vh;
+    /* border-style: solid; */
+    display:block;
+    grid-template-columns: 40% 50%;
+    /* column-gap: 2rem; */
+}
+.about-awe {
+    /* margin-top: 2%; */
+    background-image: url(../images/awe-Rwanda.jpg);
+    max-width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.progamawe {
+    margin-top: 1%;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 100;
+    text-align: left;
+    /* padding-top: 25px; */
+    padding-left: 50px;
+    /* color:black; */
+    margin-bottom: 200px;
+    background-color: #202A25;
+    height: 900px;
+}
+.awe-images {
+    margin-top: 100px;
+    /* border-style: dotted; */
+    margin-top: 3%;
+    /* border-style: double; */
+    display: block;
+    grid-template-columns: 50% 50%;
+    grid-column: 4rem;
+}
+
+
+
+.whythisprogram{
+    padding-top:900px;
+
+
+}
+
+.AboutThisProgram {
+    /* border-style: double; */
+    width: 100%;
+    height: 100%;
+}
+.Goals-awe p {
+    margin-top: 1%;
+    padding-right: 30px;
+    color: #202A25;
+    font-weight: 300;
+    word-spacing: 0.1;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size:26px;
+    line-height:2.9rem;
+}
+.AboutThisProgram p {
+    color:#202A25;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 20px;
+    line-height:2.9rem ;
+    word-spacing: 0.1;
+
+}
+.why_aweInRwanda {
+    /* border-style: double; */
+    /* background-color: chartreuse; */
+    display: block;
+    grid-template-columns: 33% 33% 33%;
+    /* grid-template-rows: 33% 33% 33%; */
+}
+
+
+.trainings h1 {
+    padding-top: 20px;
+  
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.trainings p {
+    color: #202A25;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin: 2%;
+}
+
+
+
+.Coaching h1 {
+    margin-top: 4%;
+    color: #05668d;
+    font-weight: bold;
+    font-size: 28px;
+   
+}
+
+.Coaching p {
+    color: #202A25;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin: 2%;
+}
+
+
+
+.Mentorship h1 {
+    margin-top: 4%;
+    color: #05668d;
+    font-weight: 200;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.Mentorship p {
+    /* margin-top: 20px; */
+    
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin: 0;
+}
+.expectations {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
     .fa-bars{
         display: block;
     }
